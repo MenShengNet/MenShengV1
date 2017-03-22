@@ -3,9 +3,16 @@
 模块命名：
     导航：nav
     导航子块：nav-XXX
-    标题块：title
+    标题块：-title-
     列表子块：item-xxx
-    用户信息：userinf
-    教师休息：teainf
-    学生信息：stuinf
-    助教信息：hteainf
+    用户信息：userinfo
+    教师信息：teainfo
+    学生信息：stuinfo
+    助教信息：hteainfo
+    其他类似以上为例 解释加注释
+    多按钮：but1 but2 ...具体名称-xxx
+    其他子件：xxx-item
+    其他子件自定义命名 xxx-xxx 英文 偏僻单词加注释
+    
+
+
