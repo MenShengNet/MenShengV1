@@ -291,6 +291,140 @@
     height: 100%;
     width: 600px;
     border: 1px solid black;
+
+}
+.detail .stuinfo .stusuggestion{
+    position: relative;
+    margin-top: 10px;
+}
+.detail .stuinfo .stusuggestion span{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.detail .stuinfo .stusuggestion textarea{
+    margin-left: 50px;
+}
+.detail .stuinfo .stufankui input{
+    display: block;
+    float: right;
+}
+.detail .stuinfo .stuguanzhu{
+    border: 1px solid black;
+    width: 700px;
+    overflow: auto;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem{
+    width: 186px;
+    height: 293px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail{
+    width: 186px;
+    height: 243px;
+    border: 1px solid black;
+
+}
+
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail h5{
+    position: relative;
+    left: 25%;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail h5 span{
+    font-weight: normal;
+    border: 1px solid black;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail .guanzhu-p{
+    width: 160px;
+    text-indent: 2em;
+    margin: 0 auto;
+
+}
+#guanzhu-p{
+    position: relative;
+    left: 150px;
+    border: 1px solid black;
+    width: 33px;
+    background-color: yellow;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhu-quxiao{
+    display: block;
+    margin: 0 auto;
+}
+.studes{
+    height: 709px;
+    width: 909px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.studes .studetial{
+    width: 762px;
+    height: 568px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #EEEEEE;
+}
+.studes .studetial .stu-des{
+    height: 186px;
+    width: 100%;
+    overflow: auto;
+}
+
+img{
+    border: 0;
+}
+.studes .studetial .stu-des img{
+    height: 130px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+    border: 0;
+    border-radius: 66px;
+    border: 3px solid #FFFFFF;
+}
+.studes .studetial .stu-des .des-text{
+    width: 224px;
+    height: 111px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 35px;
+
+}
+.studes .studetial .stu-des .des-text p{
+    line-height: 1.6em;
+    font-size: 13px;
+
+    width: 224px;
+}
+.studes .studetial  .det{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.studes .studetial .det h4{
+    font-weight: normal;
+    color: #999999;
+    text-indent: 15px;
+    border-bottom: 1px dashed ;
+}
+.studes .studetial .det p{
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 1.5em;
+
 }
 
 .public-footer{
