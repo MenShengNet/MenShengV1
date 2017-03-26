@@ -1,0 +1,435 @@
+.public-header{
+    border:1px solid black;
+    width: 909px;
+    height: 40px;
+    margin: 0 auto;
+}
+.public-header .public-logo{
+    border-right: 1px solid black;
+    float: left;
+    height: 100%;
+    width: 128px;
+    text-align: center;
+    padding: auto 0;
+}
+.public-header .public-but1{
+    height: 100%;
+    width: 69px;
+    border-right: 1px solid black;
+    float: left;
+    text-align: center;
+}
+.public-header .public-but2{
+    height: 100%;
+    width: 69px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-left: 3px;
+    float: left;
+    text-align: center;
+}
+
+.public-header .public-search{
+    border: 1px solid black;
+    border-radius: 32px;
+    float: left;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 146px;
+    padding-left: 10px;
+}
+.public-header .public-mycourse{
+    float: right;
+    border: 1px solid black;
+    width: 69px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-top: 7px;
+
+}
+.public-header .public-info{
+    float: right;
+    border: 1px solid black;
+    width: 49px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.public-header .public-register{
+    float: right;
+    border: 1px solid black;
+    width: 69px;
+    height: 28px;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.detail{
+    height: 764px;
+    width: 909px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.detail .centre-nav{
+    float: left;
+    width: 150px;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.detail .centre-nav li:first-child{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    height: 45px;
+
+}
+.detail .centre-nav li{
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+
+
+}
+.detail .stuinfo{
+    width: 757px;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+}
+.detail .stuinfo .studes{
+    width: 560px;
+    height: 155px;
+    border: 1px solid black;
+    float: left;
+}
+.detail .stuinfo .studes .stu-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.detail .stuinfo .stuxinxi{
+    width: 415px;
+    float: right;
+    height: 100%;
+
+}
+.detail .stuinfo .stuxinxi h1{
+    margin-top: 10px;
+    display: inline-block;
+}
+.detail .stuinfo .stuxinxi span:first-child{
+    left: 30px;
+}
+.detail .stuinfo .stuxinxi span{
+    border: 1px solid black;
+    height: 30px;
+    width: auto;
+}
+.detail .stuinfo .stueval{
+    width: 178px;
+    height: 155px;
+    float: right;
+    border: 1px solid black;
+}
+.detail .stuinfo .stueval div:first-child{
+    height: 50px;
+    font-size: 27px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+
+}
+.detail .stuinfo .stueval div:last-child{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+.detail .stuinfo .nav-button{
+    margin-top: 155px;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.detail .stuinfo .nav-button .nav-but{
+    height: 40px;
+    width: 140px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.detail .stuinfo .course-show{
+    border: 1px solid black;
+    height: inherit;
+
+}
+.detail .stuinfo .course-show .courser-show-item{
+    height: 182px;
+    border: 1px solid black;
+    width: 200px;
+}
+.detail .stuinfo .course-show .courser-show-item .show-item{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+.detail .stuinfo .course-show .show-item .show-des div:first-child{
+    font-size: 10px;
+}
+
+.detail .stuinfo .course-show .courser-show-item .show-item .show-des .show-teach{
+    color: #999999;
+
+}
+.detail .stuinfo .course-show .courser-show-item .show-statime{
+    font-size: 14px;
+    float: right;
+}
+.detail .stuinfo .course-show .courser-show-item .show-protime{
+    font-size: 14px;
+    display: block;
+    float: right;
+;
+}
+.detail .stuinfo .course-show .courser-show-item .show-kind{
+    color: red;
+
+    width: auto;
+    float: left;
+
+}
+.detail .stuinfo .course-show .courser-show-item .show-sty{
+    color: red;
+    float: right;
+    margin-left: 7px;
+}
+
+.detail .stuinfo .stuinfrom{
+    height: 141px;
+    width: 686px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.detail .stuinfo .stuinfrom .infrom-info{
+    width: 249px;
+    height: 104px;
+    border: 1px solid black;
+    float: left;
+    margin-top:17px;
+    margin-left: 12px;
+}
+.detail .stuinfo .stuinfrom .infrom-info .infrom-info-img{
+    height: 87px;
+    width: 97px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.detail .stuinfo .stuinfrom .infrom-info .inform-des{
+    float: right;
+}
+
+.detail .stuinfo .stuinfrom .infrom-info h4{
+    margin-top: 8px;
+    margin-right: 44px;
+}
+.detail .stuinfo .stuinfrom .infrom-title{
+    font-size: 40px;
+    line-height: 141px;
+    margin-left: 2px;
+}
+.detail .stuinfo .stuinfrom  .infrom-but{
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 48px;
+}
+.detail .stuinfo .money-info{
+    height: 741px;
+    width: 560px;
+    border: 1px solid black;
+}
+.detail .stuinfo .money-dis{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.detail .stuinfo .money-dis p{
+    display: inline;
+    font-size: 30px;
+}
+.detail .stuinfo .money-info .money-chong{
+    height: 140px;
+    width: 100%;
+    border: 1px solid black;
+}
+.detail .stuinfo .money-info .money-sub{
+
+    margin-left: 55px;
+
+}
+.detail .stuinfo .stufankui{
+    height: 100%;
+    width: 600px;
+    border: 1px solid black;
+
+}
+.detail .stuinfo .stusuggestion{
+    position: relative;
+    margin-top: 10px;
+}
+.detail .stuinfo .stusuggestion span{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.detail .stuinfo .stusuggestion textarea{
+    margin-left: 50px;
+}
+.detail .stuinfo .stufankui input{
+    display: block;
+    float: right;
+}
+.detail .stuinfo .stuguanzhu{
+    border: 1px solid black;
+    width: 700px;
+    overflow: auto;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem{
+    width: 186px;
+    height: 293px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail{
+    width: 186px;
+    height: 243px;
+    border: 1px solid black;
+
+}
+
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail h5{
+    position: relative;
+    left: 25%;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail h5 span{
+    font-weight: normal;
+    border: 1px solid black;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhudetail .guanzhu-p{
+    width: 160px;
+    text-indent: 2em;
+    margin: 0 auto;
+
+}
+#guanzhu-p{
+    position: relative;
+    left: 150px;
+    border: 1px solid black;
+    width: 33px;
+    background-color: yellow;
+}
+.detail .stuinfo .stuguanzhu .guanzhuitem .guanzhu-quxiao{
+    display: block;
+    margin: 0 auto;
+}
+.studes{
+    height: 709px;
+    width: 909px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.studes .studetial{
+    width: 762px;
+    height: 568px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #EEEEEE;
+}
+.studes .studetial .stu-des{
+    height: 186px;
+    width: 100%;
+    overflow: auto;
+}
+
+img{
+    border: 0;
+}
+.studes .studetial .stu-des img{
+    height: 130px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+    border: 0;
+    border-radius: 66px;
+    border: 3px solid #FFFFFF;
+}
+.studes .studetial .stu-des .des-text{
+    width: 224px;
+    height: 111px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 35px;
+
+}
+.studes .studetial .stu-des .des-text p{
+    line-height: 1.6em;
+    font-size: 13px;
+
+    width: 224px;
+}
+.studes .studetial  .det{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.studes .studetial .det h4{
+    font-weight: normal;
+    color: #999999;
+    text-indent: 15px;
+    border-bottom: 1px dashed ;
+}
+.studes .studetial .det p{
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 1.5em;
+
+}
+
+.public-footer{
+    width: 909px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
