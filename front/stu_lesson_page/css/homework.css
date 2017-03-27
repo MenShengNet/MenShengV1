@@ -1,0 +1,7 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section .container{width: 680px;height:600px;overflow: hidden;margin: 10px auto;}
+#section .container ul li{height: 30px;border-bottom:1px solid #666;font-size: 18px;padding: 5px 0;}
+#section .container .hwkNo{line-height: 30px;display: inline-block;}
+#section .container .deadline{line-height: 30px;float: right;}
+#section .container .deadline .subBtn{display: inline-block;border: 1px solid #666;border-radius: 4px;background: silver;}

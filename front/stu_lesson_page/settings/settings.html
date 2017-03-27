@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>settings</title>
+  <link rel="stylesheet" href="../css/public.css" />
+  <link rel="stylesheet" href="../css/sideBar.css" />
+  <link rel="stylesheet" href="../css/settings.css" />
+</head>
+<body>
+<div id="wrap">
+  <sidebar></sidebar>
+  <div id="section">
+    <h2>信号与系统</h2>
+    <hr>
+    <div class="container">
+      <span>课程内设置</span>
+        <div class="settings">
+          课程内昵称
+          <input type="text"><br /><br />
+          学号
+          <input type="text">
+        </div>
+        <button>finish</button>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../scripts/vue.js"></script>
+<script src="../scripts/sideBar.js"></script>
+<script src="../scripts/jquery.js"></script>
+<script>
+  $(".settings_tag").addClass("current").siblings().removeClass("current");
+</script>
+</html>

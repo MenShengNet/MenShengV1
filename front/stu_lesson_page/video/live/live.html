@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live</title>
+  <link rel="stylesheet" href="../../css/public.css" />
+  <link rel="stylesheet" href="../../css/live.css" />
+  <link rel="stylesheet" href="../../css/sideBar.css" />
+</head>
+<body>
+  <div id="wrap">
+    <sidebar></sidebar>
+    <div id="section">
+      <h2>信号与系统</h2>
+      <span>正在直播：XXXXX</span>
+      <div class="liveArea">
+        <video src="" controls="controls">
+          your browser does not support the video tag
+        </video>
+      </div>
+      <div class="sendArea">
+        <input type="text">
+        <div class="sendBtn">
+          <a href="">send</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../../scripts/vue.js"></script>
+<script src="../../scripts/sideBar.js"></script>
+<script src="../../scripts/jquery.js"></script>
+<script>
+	$(".video_tag").addClass("current").siblings().removeClass("current");
+</script>
+</html>

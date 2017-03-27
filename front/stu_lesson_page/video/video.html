@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>video</title>
+  <link rel="stylesheet" href="../css/public.css" />
+  <link rel="stylesheet" href="../css/sideBar.css" />
+</head>
+<style>
+  #section a{font-size: 50px;}
+</style>
+<body>
+<div id="wrap">
+  <sidebar></sidebar>
+  <div id="section">
+    <a href="live/live.html">live</a><br />
+    <a href="replay/replay.html">replay</a><br />
+    <a href="res_download/download.html">download</a><br />
+  </div>
+</div>
+</body>
+<script src="../scripts/vue.js"></script>
+<script src="../scripts/sideBar.js"></script>
+<script src="../scripts/jquery.js"></script>
+<script>
+	$(".video_tag").addClass("current").siblings().removeClass("current");
+</script>
+</html>

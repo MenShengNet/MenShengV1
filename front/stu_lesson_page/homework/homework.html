@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>homework</title>
+  <link rel="stylesheet" href="../css/public.css" />
+  <link rel="stylesheet" href="../css/sideBar.css" />
+  <link rel="stylesheet" href="../css/homework.css" />
+</head>
+<body>
+<div id="wrap">
+  <sidebar></sidebar>
+  <div id="section">
+    <h2>信号与系统</h2>
+    <div class="container">
+      <ul>
+        <li>
+          <div class="hwkNo">第一次作业</div>
+          <div class="deadline">截止时间:1999年9月9日09:09:09
+            <div class="subBtn">
+              <a>已截止</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="hwkNo">第二次作业</div>
+          <div class="deadline">截止时间:1999年9月9日09:09:09
+            <div class="subBtn">
+              <a href="homework_submit/homework_submit.html">去提交</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="hwkNo">第三次作业</div>
+          <div class="deadline">截止时间:1999年9月9日09:09:09
+            <div class="subBtn">
+              <a href="homework_submit/homework_submit.html">去提交</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../scripts/vue.js"></script>
+<script src="../scripts/sideBar.js"></script>
+<script src="../scripts/jquery.js"></script>
+<script>
+	$(".homework_tag").addClass("current").siblings().removeClass("current");
+</script>
+</html>

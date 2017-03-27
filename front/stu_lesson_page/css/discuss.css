@@ -1,0 +1,6 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section .container{width: 680px;margin: 10px auto;background: #ccc;overflow: hidden;}
+#section .container .title{font-size: 30px;}
+#section .container .inner{display: block;}
+#section .container .message{display: block;float: right;margin-top: 20px;}

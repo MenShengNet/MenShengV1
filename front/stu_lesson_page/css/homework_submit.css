@@ -1,0 +1,6 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section .container{width: 670px;height: 556px;background: #ccc;margin: 10px auto;position: relative;}
+#section .container .homework span{display: block;margin-top: 20px;}
+#section .container .input{width:600px;height: 230px;background: #666;margin: 70px auto;}
+#section .container button{position: absolute; right: 30px;bottom: 80px;}
