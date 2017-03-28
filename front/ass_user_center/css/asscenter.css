@@ -1,0 +1,567 @@
+.public-header{
+    border:1px solid black;
+    width: 909px;
+    height: 40px;
+    margin: 0 auto;
+}
+.public-header .public-logo{
+    border-right: 1px solid black;
+    float: left;
+    height: 100%;
+    width: 128px;
+    text-align: center;
+    padding: auto 0;
+}
+.public-header .public-but1{
+    height: 100%;
+    width: 69px;
+    border-right: 1px solid black;
+    float: left;
+    text-align: center;
+}
+.public-header .public-but2{
+    height: 100%;
+    width: 69px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-left: 3px;
+    float: left;
+    text-align: center;
+}
+
+.public-header .public-search{
+    border: 1px solid black;
+    border-radius: 32px;
+    float: left;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 146px;
+    padding-left: 10px;
+}
+.public-header .public-mycourse{
+    float: right;
+    border: 1px solid black;
+    width: 69px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-top: 7px;
+
+}
+.public-header .public-info{
+    float: right;
+    border: 1px solid black;
+    width: 49px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.public-header .public-register{
+    float: right;
+    border: 1px solid black;
+    width: 69px;
+    height: 28px;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.detail{
+    height: 764px;
+    width: 909px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.detail .centre-nav{
+    float: left;
+    width: 150px;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.detail .centre-nav li:first-child{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    height: 45px;
+
+}
+.detail .centre-nav li{
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+
+
+}
+.detail .assinfo{
+    width: 756px;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+	border-left:1px solid #000;
+}
+.detail .assinfo .assdes{
+    width: 560px;
+    height: 155px;
+    border: 1px solid black;
+    float: left;
+}
+.detail .assinfo .assdes .asshead{
+	width:100px;
+	height:100px;
+	border:1px solid #000;
+	border-radius:50%;
+	display:inline-block;
+	margin:10px 0 0 20px;
+}
+.detail .assinfo .assdes .ass-icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.detail .assinfo .assxinxi{
+    width: 415px;
+    float: right;
+    height: 100%;
+
+}
+.detail .assinfo .assxinxi h1{
+    margin-top: 10px;
+    display: inline-block;
+}
+.detail .assinfo .assxinxi span:first-child{
+    left: 30px;
+}
+.detail .assinfo .assxinxi span{
+    border: 1px solid black;
+    height: 30px;
+    width: auto;
+}
+.detail .assinfo .asseval{
+    width: 178px;
+    height: 155px;
+    float: right;
+    border: 1px solid black;
+}
+.detail .assinfo .asseval div:first-child{
+    height: 50px;
+    font-size: 27px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+
+}
+.detail .assinfo .asseval div:last-child{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+.detail .assinfo .nav-button{
+    margin-top: 155px;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.detail .assinfo .nav-button .nav-but{
+    height: 40px;
+    width: 140px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.detail .assinfo .course-show{
+    border: 1px solid black;
+    height: inherit;
+
+}
+.detail .assinfo .course-show .courser-show-item{
+    height: 182px;
+    border: 1px solid black;
+    width: 200px;
+	margin:10px;
+	float:left;
+}
+.detail .assinfo .course-show .courser-show-item .show-item{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+.detail .assinfo .course-show .show-item .show-des div:first-child{
+    font-size: 10px;
+}
+
+.detail .assinfo .course-show .courser-show-item .show-item .show-des .show-teach{
+    color: #999999;
+
+}
+.detail .assinfo .course-show .courser-show-item .show-statime{
+    font-size: 14px;
+    float: right;
+}
+.detail .assinfo .course-show .courser-show-item .show-protime{
+    font-size: 14px;
+    display: block;
+    float: right;
+;
+}
+.detail .assinfo .course-show .courser-show-item .show-kind{
+    color: red;
+
+    width: auto;
+    float: left;
+
+}
+.detail .assinfo .course-show .courser-show-item .show-sty{
+    color: red;
+    float: right;
+    margin-left: 7px;
+}
+
+.detail .assinfo .assinfrom{
+    height: 141px;
+    width: 686px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.detail .assinfo .assinfrom .infrom-info{
+    width: 249px;
+    height: 104px;
+    border: 1px solid black;
+    float: left;
+    margin-top:17px;
+    margin-left: 12px;
+}
+.detail .assinfo .assinfrom .infrom-info .infrom-info-img{
+    height: 87px;
+    width: 97px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.detail .assinfo .assinfrom .infrom-info .inform-des{
+    float: right;
+}
+
+.detail .assinfo .assinfrom .infrom-info h4{
+    margin-top: 8px;
+    margin-right: 44px;
+}
+.detail .assinfo .assinfrom .infrom-title{
+    font-size: 40px;
+    line-height: 141px;
+    margin-left: 2px;
+}
+.detail .assinfo .assinfrom  .infrom-but{
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 48px;
+}
+.detail .assinfo .coin{
+	width:755px;
+	padding:30px;
+}
+.detail .assinfo .coin .coinShow{
+	line-height:30px;
+	vertical-align:middle;
+}
+.detail .assinfo .coin .remain{
+	font-size:30px;
+	font-weight:700;
+}
+.detail .assinfo .coin .recharge{
+	margin:10px 0 10px 0;
+}
+.detail .assinfo .coin .recharge em{
+	font-style:normal;
+	border:1px solid #000;
+	padding:3px;
+	cursor:pointer;
+}
+.detail .assinfo .coin .reminder{
+	font-size:14px;
+	color:#ccc;
+}
+.detail .assinfo .coin .ok{
+	position:relative;
+	left:300px;
+	border-radius:4px;
+	padding:2px 4px;
+}
+.detail .assinfo .assfankui{
+    height: 100%;
+    width: 600px;
+    border: 1px solid black;
+
+}
+.detail .assinfo .asssuggestion{
+    position: relative;
+    margin-top: 10px;
+}
+.detail .assinfo .asssuggestion span{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.detail .assinfo .asssuggestion textarea{
+    margin-left: 50px;
+}
+.detail .assinfo .assfankui input{
+    display: block;
+    float: right;
+}
+.detail .assinfo .assguanzhu{
+    border: 1px solid black;
+    width: 700px;
+    overflow: auto;
+}
+.detail .assinfo .assguanzhu .guanzhuitem{
+    width: 186px;
+    height: 293px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhudetail{
+    width: 186px;
+    height: 243px;
+    border: 1px solid black;
+
+}
+
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhudetail img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhudetail h5{
+    position: relative;
+    left: 25%;
+}
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhudetail h5 span{
+    font-weight: normal;
+    border: 1px solid black;
+}
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhudetail .guanzhu-p{
+    width: 160px;
+    text-indent: 2em;
+    margin: 0 auto;
+
+}
+#guanzhu-p{
+    position: relative;
+    left: 150px;
+    border: 1px solid black;
+    width: 33px;
+    background-color: yellow;
+}
+.detail .assinfo .assguanzhu .guanzhuitem .guanzhu-quxiao{
+    display: block;
+    margin: 0 auto;
+}
+.assdes{
+    height: 709px;
+    width: 909px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.assdes .assdetial{
+    width: 762px;
+    height: 568px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #EEEEEE;
+}
+.assdes .assdetial .ass-des{
+    height: 186px;
+    width: 100%;
+    overflow: auto;
+}
+
+img{
+    border: 0;
+}
+.assdes .assdetial .ass-des img{
+    height: 130px;
+    width: 130px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+    border: 0;
+    border-radius: 66px;
+    border: 3px solid #FFFFFF;
+}
+.assdes .assdetial .ass-des .des-text{
+    width: 224px;
+    height: 111px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 35px;
+
+}
+.assdes .assdetial .ass-des .des-text p{
+    line-height: 1.6em;
+    font-size: 13px;
+
+    width: 224px;
+}
+.assdes .assdetial  .det{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.assdes .assdetial .det h4{
+    font-weight: normal;
+    color: #999999;
+    text-indent: 15px;
+    border-bottom: 1px dashed ;
+}
+.assdes .assdetial .det p{
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 1.5em;
+
+}
+#profileArea form{
+	padding:0 20px;
+}
+#profileArea .account{
+}
+#profileArea .account ul li{
+	padding:10px 0;
+}
+#profileArea .account ul li em{
+	font-style:normal;
+	display:inline-block;
+	width:80px;
+}
+#profileArea .account ul li span{
+	font-size:14px;
+	line-height:16px;
+	color:#666;
+	cursor:pointer;
+}
+#profileArea .head{
+	position:relative;
+	padding:10px;
+}
+#profileArea .head img{
+	display:inline-block;
+	vertical-align:middle;
+}
+#profileArea .head p{
+	display:inline-block;
+	position:absolute;
+	top:10px;
+	font-size:14px;
+	line-height:16px;
+	color:#666;
+}
+#profileArea .head input{
+	position:absolute;
+	bottom:10px;
+	width:130px;
+	height:30px;
+	font-size:20px;
+}
+#profileArea .sex{
+	padding:15px 0;
+}
+#profileArea .sex ul li{
+	float:left;
+	margin:0 10px;
+}
+#profileArea .sex:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+#profileArea .school{
+	width:450px;
+	height:200px;
+	border:1px solid #000;
+	position:relative;
+}
+#profileArea .school .rzStatus{
+	display:inline-block;
+	width:100px;
+	height:60px;
+	border:1px solid #000;
+	border-top:transparent;
+	border-left:transparent;
+	font-size:20px;
+	text-align:center;
+	line-height:60px;
+}
+#profileArea .school img{
+	margin:20px 0 0 30px;
+}
+#profileArea .school span{
+	position:absolute;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	top:20px;;
+	right:50px;
+}
+#profileArea .school span select{
+	width:150px;
+	height:20px;
+	vertical-align:middle;
+}
+#profileArea .school .reminder{
+	position:absolute;
+	top:80px;
+	left:150px;
+	color:#ccc;
+}
+#profileArea .school .commit{
+	width:100px;
+	height:30px;
+	position:absolute;
+	left:200px;
+	top:150px;
+	font-size:20px;
+}
+#profileArea .selfIntro{
+	height:100px;
+	padding:20px 0;
+}
+#profileArea .selfIntro textarea{
+	vertical-align:m;
+}
+#profileArea .commitAll{
+	width:130px;
+	height:30px;
+	font-size:20px;
+	margin:10px 200px;
+}
+.public-footer{
+    width: 909px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
