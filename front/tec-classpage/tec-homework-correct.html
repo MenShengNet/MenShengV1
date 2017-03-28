@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>教师作业批改</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/sideBar.css" type="text/css">
+</head>
+<body>
+<div id="public-header">
+    头部
+</div>
+<div id="wrap">
+    <sidebar></sidebar>
+</div>
+<div id="content">
+    <div class="content-no htec-homework">
+        <h1>信号与系统</h1>
+        <button type="button" class="common-button left-button">
+            xx次作业批改
+        </button>
+        <button type="button" class="common-button right-button">返回作业列表</button>
+        <div class="correct-inf">
+            <h1>姓名：xxx  学号：xxxxx</h1>
+            <h2>已批改：xx 剩余：xx</h2>
+        </div>
+        <div class="homework-view">
+            <button type="button" class="left-button">上一份</button>
+            <div class="homework"></div>
+            <button type="button" class="right-button">下一份</button>
+        </div>
+        <div class="homework-comment">
+            批语
+        </div>
+        <div class="stu-score">
+            <a>成绩</a>
+            <input type="text" name="stu-score"><br>
+        </div>
+        <button type="button" class="common-button right-button">完成</button>
+    </div>
+
+
+</div>
+<div id="public-footer">
+    尾部
+</div>
+</body>
+<script src="js/vue.js"></script>
+<script src="js/tec-sideBar.js"></script>
+</html>
