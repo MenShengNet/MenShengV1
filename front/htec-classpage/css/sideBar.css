@@ -1,0 +1,11 @@
+#wrap{width:145px;height:768px;border:1px solid #666;margin:0;float: left}
+#wrap sideBar{float: left;}
+#sideBar ul li{height:40px;width:145px;border:1px solid #666;border-left-width: 0;line-height: 40px;text-align: center;}
+#sideBar ul li .tag{display: block;width: 145px;}
+#sideBar .app{height:110px;position: relative;}
+#sideBar .app img{position:relative;top:12px;}
+#sideBar .download{border:1px solid #666;float: right;margin: 16px 24px 0 0;width: 63px;height:43px; }
+#sideBar .download a{line-height: 43px;}
+#sideBar .share{border:1px solid #666;position: absolute;right: 24px;bottom: 9px;width: 102px;height: 28px;border-radius:4px; }
+#sideBar .share a{position: relative;top: -5px;}
+#sideBar ul .current{background: skyblue; border-right-color: skyblue;}
