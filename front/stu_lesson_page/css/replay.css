@@ -1,0 +1,7 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section .selBar{width: 200px;height: 30px;margin-left: 15px;}
+#section .select span{display: inline-block; margin: 30px 30px 30px 60px;}
+#section .videoArea{width: 600px;height: 350px;background: #ccc;margin-left: 60px;}
+#section .videoArea video{width: 400px;height: 300px;background: #666;}
+#section .videoArea .bump{width: 200px;height: 350px;background: #eee;float: right;}

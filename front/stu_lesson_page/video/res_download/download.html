@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>download</title>
+  <link rel="stylesheet" href="../../css/public.css" />
+  <link rel="stylesheet" href="../../css/sideBar.css" />
+  <link rel="stylesheet" href="../../css/download.css" />
+</head>
+<body>
+  <div id="wrap">
+    <sidebar></sidebar>
+    <div id="section">
+      <h2>信号与系统</h2>
+      <div class="select">
+        <span>章节</span>
+        <select class="cptSel selBar">
+          <option>第一章</option>
+          <option>第二章</option>
+          <option>第三章</option>
+          <option>第四章</option>
+          <option>第五章</option>
+        </select>
+        <select class="sctSel selBar">
+          <option>第一节</option>
+          <option>第二节</option>
+          <option>第三节</option>
+          <option>第四节</option>
+          <option>第五节</option>
+        </select>
+      </div>
+      <div class="resource"></div>
+      <div class="downRes">
+        <a href="">下载附件/PPT</a>
+      </div>
+    </div>
+  </div>
+  <script src="../../scripts/vue.js"></script>
+  <script src="../../scripts/sideBar.js"></script>
+  <script src="../../scripts/jquery.js"></script>
+  <script>
+		$(".video_tag").addClass("current").siblings().removeClass("current");
+  </script>
+</body>
+</html>

@@ -1,0 +1,415 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 910px;
+    margin :10px auto;
+    background: #fff;
+}
+#public-header{
+    height: 60px;
+    width: 910px;
+    background: #ccc;
+}
+#public-nav{
+   width: 150px;
+    height: 800px;
+    float: left;
+    background: #ff0000;
+}
+#content{
+    width: 760px;
+    height: 800px;
+    float: right;
+    background: #777;
+}
+#selfinf{
+    margin: 5px;
+    float: left;
+    height: 155px;
+    width: 560px;
+    background: #00ff00;
+}
+#public-nav-test{
+    margin: 5px;
+    float: right;
+    width: 178px;
+    height: 155px;
+    background: #0000ff;
+}
+.content{
+    margin: 5px;
+    padding: 5px;
+    clear: both;
+    height: 620px;
+    background: #333300;
+}
+.content-no{
+    margin: 5px;
+    padding: 5px;
+    clear: both;
+    height: 780px;
+    background: #333300;
+}
+.content h1{
+    margin: 10px 50px;
+    padding: 10px;
+    background: #ffffff;
+}
+.content h2{
+    margin: 10px 50px;
+    padding: 10px;
+    background: #333;
+}
+.common-button{
+    width: 140px;
+    height: 40px;
+    margin: 10px 50px;
+}
+.left-button{
+    float: left;
+
+}
+.right-button{
+    float: right;
+}
+#public-footer{
+    clear: both;
+    height: 100px;
+    width: 910px;
+    background: #333;
+}
+
+/*公告*/
+#htec-announcement-content{
+    clear: both;
+    background: #fff;
+    margin: 10px auto;
+    height: 200px;
+    width: 600px;
+}
+
+/*作业*/
+.htec-homework-button-l{
+    float: left;
+    margin-left:50px;
+
+}
+.htec-homework-button-r{
+    float: right;
+    margin-right: 50px;
+}
+#htec-homework-content{
+    clear: both;
+    width: 651px;
+    height: 50px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.small-button{
+    margin: 5px 10px;
+    width: 75px;
+    height: 20px;
+}
+#htec-homework-content button{
+    position: relative;
+    left: 350px;
+}
+
+/*发布公告*/
+#htec-release-ann-preview{
+    margin: 10px auto;
+    clear: both;
+    width: 600px;
+    height: 100px;
+    background: #333;
+}
+#htec-release-ann-editor{
+    clear: both;
+    margin: 10px auto;
+    width: 600px;
+    height: 100px;
+    background: #333;
+}
+
+/*录播*/
+.htec-video{
+    clear: both;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background: #333;
+
+}
+.htec-video-record a{
+    float: left;
+    width: 60px;
+    height: auto;
+    background: #333;
+}
+.classlist{
+    margin: 0 50px;
+}
+.video-area{
+    margin: 10px auto 0;
+    width: 700px;
+    height: 350px;
+    background: #333;
+}
+.video-play{
+    float: left;
+    width: 450px;
+    height: 300px;
+    background: #ff0000;
+}
+.barrage{
+    float: right;
+    width: 250px;
+    height: 300px;
+    background: #fff;
+}
+.video-control{
+    clear: both;
+    float: left;
+    height: 30px;
+    width: 450px;
+    background: #00ff00;
+}
+.video-released{
+    clear: both;
+    margin: 10px auto;
+    height: 200px;
+    width: 700px;
+    background: #cccccc;
+}
+
+/*直播*/
+.video-live-name{
+    margin: auto;
+    width: 700px;
+    height: 40px;
+    background: #ffffff;
+}
+.video-live-name h1{
+    font-size: 24px;
+    float: left;
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    background: #333;
+}
+.video-live-name a{
+    margin: 5px 20px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    background: #333;
+}
+.comment{
+    float: right;
+    width: 250px;
+    height: 30px;
+    background: #0000ff;
+}
+.comment input{
+    margin: 0 10px;
+}
+.comment button{
+    position: relative;
+    left: 20px;
+}
+
+/*批改作业列表*/
+.correct{
+    /*margin-bottom: 10px;*/
+    clear: both;
+    width: 651px;
+    height: 200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.homework-list{
+    background: #333;
+    margin: 10px;
+    height: 30px;
+}
+.corrected{
+    margin: 10px auto;
+    background: #ccc;
+}
+.homework-list button{
+    position: relative;
+    left: 350px;
+}
+
+/*作业批改*/
+.correct-inf{
+    margin: 10px auto;
+    clear: both;
+    height: 30px;
+    width: 700px;
+    background: #ccc;
+}
+.correct-inf h1{
+    background: #444;
+    font-size: 16px;
+    margin: 5px 20px;
+    height: 20px;
+    width: 40%;
+    float: left;
+}
+.correct-inf h2{
+    background: #444;
+    font-size: 16px;
+    margin: 5px 20px;
+    height: 20px;
+    width: 40%;
+    float: right;
+}
+.homework-view{
+    background: #fff;
+    width: 700px;
+    height: 300px;
+    margin: 10px auto;
+}
+.homework-view button{
+    height: 100%;
+    width: 50px;
+}
+.homework{
+    margin: auto;
+    background: #ccc;
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+.homework-comment{
+    background: #ccc;
+    margin: auto;
+    height: 200px;
+    width: 600px;
+}
+.stu-score{
+    background: #ccc;
+    margin: 5px 50px;
+    float: right;
+}
+.content-no button{
+    clear: right;
+}
+
+/*讨论区*/
+.htec-discussion-content{
+    background: #fff;
+    margin: 10px auto;
+    width: 650px;
+    height: 200px;
+}
+
+/*学生管理*/
+.htec-name{
+    clear: both;
+    background: #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    height: auto;
+    width: 600px;
+}
+.inf{
+    background: #fff;
+}
+.inf div{
+    background: #00ff00;
+    height: auto;
+    width: 60%;
+}
+.inf button{
+    position: relative;
+}
+.htec-name img{
+    background: #ff0000;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.stu-name{
+    clear: both;
+    background: #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    height: auto;
+    width: 600px;
+}
+.stu-name img{
+    background: #ff0000;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.add-button{
+    position: relative;
+    left: 480px;
+}
+.detail-button{
+    margin: 5px auto;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 30px;
+}
+.cancel-button{
+    position: absolute;
+    left: 150px;
+}
+.delete-button{
+    position: absolute;
+    left: 40px;
+}
+.ann-button1{
+    position: absolute;
+    left: 160px;
+}
+.ann-button2{
+    position: absolute;
+    left: 50px;
+}
+
+
+/*教师页面*/
+/*发布作业*/
+.homework-name-deadline{
+    clear: both;
+    background: #ccc;
+    margin: 10px auto;
+    height: 100px;
+    width: 600px;
+}
+.homework-name{
+    background: #777;
+    width: 96%;
+    height: 40%;
+    margin: 2%;
+}
+.homework-name h1{
+    background: #fff;
+    float: left;
+    margin: 5px;
+    font-size: 24px;
+    line-height: 20px;
+    width: 100px;
+}
+.homework-name-deadline h1{
+    background: #fff;
+    float: left;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 100px;
+}
+.homework-name-deadline input{
+    margin: 5px;
+    clear: both;
+    position: relative;
+}

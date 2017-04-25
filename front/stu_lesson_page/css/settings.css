@@ -1,0 +1,8 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 40px 27px;}
+#section hr{width: 660px;margin: 0 auto;}
+#section .container{width: 660px;height: 550px;background: #ccc;margin: 40px auto;position: relative;}
+#section .container span{font-size: 30px;display: block;padding: 20px;}
+#section .container .settings{width: 560px;height: 300px;border: 1px solid #666;margin: 0 auto;padding:30px;}
+#section .container button{position: absolute;right: 30px;bottom: 120px;}
+#section .container .settings input{position: absolute;left: 200px;}

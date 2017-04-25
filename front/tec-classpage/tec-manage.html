@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生管理</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/sideBar.css" type="text/css">
+</head>
+<body>
+<div id="public-header">
+    头部
+</div>
+<div id="wrap">
+    <sidebar></sidebar>
+</div>
+<div id="content">
+    <div class="content-no htec-manage">
+        <h1>信号与系统</h1>
+        <button type="button" class="common-button left-button">学生列表</button>
+        <h2>参与人数：xx</h2>
+        <div class="htec-name">
+            <h1>助教</h1>
+            <div class="inf">
+                <img src="">
+                <a>姓名：xxx</a>
+                <a>学号：xxxx</a>
+                <button type="button" class="small-button cancel-button">取消助教</button>
+                <button type="button" class="small-button ann-button1">发通知</button>
+            </div>
+            <button type="button" class="small-button add-button">添加助教</button>
+        </div>
+        <div class="stu-name">
+            <h1>学生</h1>
+            <div class="inf">
+                    <img src="">
+                    <a>姓名：xxx</a>
+                    <a>学号：xxxx</a>
+                <button type="button" class="small-button detail-button">查看详细信息</button>
+                <button type="button" class="small-button delete-button">删除</button>
+                <button type="button" class="small-button ann-button2">发通知</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="public-footer">
+    尾部
+</div>
+</body>
+<script src="js/vue.js"></script>
+<script src="js/tec-sideBar.js"></script>
+</html>

@@ -1,0 +1,7 @@
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section .selBar{width: 200px;height: 30px;margin-left: 15px;}
+#section .select span{display: inline-block; margin: 30px 30px 30px 60px;}
+#section .resource{width: 600px;height: 350px;background: #ccc;margin-left: 50px;}
+#section .downRes{width: 140px;height: 40px;border: 1px solid #ccc;border-radius: 4px;position: absolute;right: 73px;bottom: -90px;}
+#section .downRes a{display:block;line-height: 40px;text-align: center;}

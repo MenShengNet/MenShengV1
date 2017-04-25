@@ -1,0 +1,9 @@
+#wrap{position: relative;}
+#section{width: 729px;float: right;position: relative;}
+#section h2{margin: 23px 0 0 27px;}
+#section span{display: block;font-size: 30px;margin: 20px 0 0 30px;}
+#section .liveArea{width: 650px;height: 350px;background: #ccc;margin: 30px 0 0 30px;border: 1px solid #000;}
+#section .liveArea video{width: 450px;height: 350px;background: #666;}
+#section .sendArea{display: inline-block;height: 25px;position: absolute;right: 40px;bottom: -40px;}
+#section .sendArea input{width: 615px;}
+#section .sendBtn{display: inline-block;border: 1px solid #666;border-radius: 4px;background: #eee;}

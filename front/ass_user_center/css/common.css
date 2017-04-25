@@ -1,0 +1,35 @@
+body, ul, li, div, dl, dt, dd, h1, h2, h3,h4, h5, h6, input, from, a, p{
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+ol, ul, li {
+    list-style: none;
+
+
+
+}
+a{
+    text-decoration: none;
+    display: block;
+
+
+}
+img {
+    border: none;
+    display: block;
+}
+
+.clearfloat{
+    zoom: 1;
+
+
+}
+.clearfloat{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+
+}
