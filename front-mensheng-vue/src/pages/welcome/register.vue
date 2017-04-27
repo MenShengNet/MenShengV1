@@ -44,6 +44,7 @@ export default{
 
 <style scoped>
   .wrap{
+    width: 900px;
     background: rgb(189,204,212);
     margin: auto;
     padding: 70px 120px;

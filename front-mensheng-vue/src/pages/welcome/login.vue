@@ -10,7 +10,7 @@
         <input type="button" value="登 录" @click="login">
         <div class="corner">
           <router-link to="" class="gain">获取知识</router-link>
-          <router-link to="/zc" class="register">注册</router-link>
+          <router-link to="/register" class="register">注册</router-link>
         </div>
       </div>
     </div>
@@ -36,6 +36,7 @@ export default{
 
 <style scoped>
   .wrap{
+    width: 900px;
     background: rgb(189,204,212);
     margin: auto;
     padding: 70px 120px;
