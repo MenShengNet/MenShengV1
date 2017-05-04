@@ -16,7 +16,8 @@
   "dependencies": {
     "vue": "^2.2.6",
     "vue-awesome-swiper": "^2.4.0",
-    "vue-router": "^2.3.1"
+    "vue-router": "^2.3.1",
+    "vue-video-player": "^3.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
