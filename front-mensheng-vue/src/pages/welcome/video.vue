@@ -1,8 +1,8 @@
 <template>
-      <div class="show clearFix">
+<div>
+	  <div class="show clearFix">
 			<div class="left">
-			    <video-player :options="playerOptions">
-  </video-player>
+			    <video-player :options="playerOptions"></video-player>
         </div>
         <div class="right">
           <ul>
@@ -13,43 +13,34 @@
           </ul>
         </div>
       </div>
-    </div>
+      </div>
 </template>
 <script>
   import Vue from 'vue'
-// ...
-import { videoPlayer } from 'vue-video-player'
+  import { videoPlayer } from 'vue-video-player'
   Vue.use(videoPlayer);
 export default {
-  data() {
+    data() {
       return {
         playerOptions: {
-
           // component options
-          start: 0,
           playsinline: false,
-
-          // videojs options
-          muted: true,
-          language: 'en',
-          playbackRates: [0.7, 1.0, 1.5, 2.0],
+          language: 'zh-CH',
           sources: [{
-            type: "video/mp4",
-            src: "https://nos.netease.com/vod163/demo.mp4"
+            type: "video/x-flv",
+            src: "http://flv41144ee2.live.126.net/live/2123c3301cee4e3ba6c1c07f202045a8.flv?netease=flv41144ee2.live.126.net"
           }],
           poster: "/static/images/author.jpg",
           height: 492
         }
-      }
-    },
+      }},
     components: {
-    videoPlayer
+      videoPlayer
   }
 }
-
 </script>
 
-<style scoped>	
+<style scoped>
   .clearFix:after{content: "";display: block;clear: both;}
   .left{float: left;}
   .right{float: right;}
@@ -61,4 +52,5 @@ export default {
   .show .right ul li.pic3{background: url("../public-image/UI-4.jpg") center/cover;}
   .show .right ul li.pic4{background: url("../public-image/UI-3.jpg") center/cover;}
 </style>
+
 

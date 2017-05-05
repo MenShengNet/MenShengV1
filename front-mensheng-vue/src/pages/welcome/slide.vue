@@ -1,7 +1,7 @@
 <template>
 <div>
   <swiper :options="swiperOption" ref="mySwiper">
-    <swiper-slide v-for="slider in sliders" :key="slider.id" v-bind:style="{backgroundImage: 'url(' + slider.background + ')'}">
+    <swiper-slide v-for="slider in sliders" v-bind:style="{backgroundImage: 'url(' + slider.background + ')'}">
     <router-link to="/">
       <div class="container">     
           <img v-bind:src=slider.img>
@@ -11,10 +11,13 @@
             <p>{{ slider.content1 }}</p>
             <p>{{ slider.content2 }}</p>
             <p>{{ slider.content3 }}</p>
-          </div>          
-          <div class="link">
-            <a>查看详情</a>            
+            <p>{{ slider.content4 }}</p>
+            <p>{{ slider.content5 }}</p>
           </div>
+          
+            <div class="link">
+              <a>查看详情</a>            
+            </div>
       </div>
     </router-link>
      
@@ -31,45 +34,45 @@
 <script>
   export default {
     name: 'carrousel',
-    data () {
+    data() {
       return {
-        sliders: [
-            { 'background': require('./images/pic_1.png'), 'img': require('./images/UI-6.jpg'), 'title': '把产品用正确的方式卖出去', 'teacher': '阿斯顿', 'content1': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划就看过就开始绿山咖啡还上课浪费拉上看到合肥可视对讲福克斯三六九等看风使舵讲课费几十块就福克斯交罚款几十块斯洛伐克华东师大教父', 'content2': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划', 'content3': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划' },
-            {'background': require('./images/pic_2.png'), 'img': require('./images/UI-6.jpg'), 'title': '给哈佛好事见识过发电机黄金时代', 'teacher': '三顿饭', 'content1': '啥打工皇帝撒规范化教父共射级东方红及时看到教父就开始交罚款大环境是开户费和几十块画法几何闪电发货', 'content2': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划', 'content3': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划'},
-            {'background': require('./images/pic_3.png'), 'img': require('./images/UI-6.jpg'), 'title': '发红色经典咖啡壶', 'teacher': '锁定', 'content1': '健康长寿记事本的捐款黄金时代好客山东进口红酒是肯定会vjksjjvdsjk就开始极度恐慌vjs', 'content2': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划', 'content3': '阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划'}
-        ],
+        sliders:[
+            {"background":require("images/pic_1.png") ,"img":require("images/UI-6.jpg") ,"title":"把产品用正确的方式卖出去" ,"teacher":"阿斯顿","content1":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划就看过就开始绿山咖啡还上课浪费拉上看到合肥可视对讲福克斯三六九等看风使舵讲课费几十块就福克斯交罚款几十块斯洛伐克华东师大教父","content2":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划","content3":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划" },
+            {"background":require("images/pic_2.png") ,"img":require("images/UI-6.jpg") ,"title":"法国红酒接电话苟富贵好几款" ,"teacher":"舒服点","content1":"算法很有感觉hi上海国际捐款会几节课刚回家看","content2":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划","content3":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划","content4":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划" },
+            {"background":require("images/pic_3.png") ,"img":require("images/UI-6.jpg") ,"title":"的反感合肥地方的合肥试试" ,"teacher":"法更好","content1":"算法很有感觉hi上海国际捐款会几节课刚回家看","content2":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划","content3":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划","content4":"阿斯蒂芬而额第三方阿斯蒂芬阿道夫啊额发我焊接后规划规划" },
+          ],
         swiperOption: {
-          loop: true,
+          loop:true,
           notNextTick: true,
-          speed: 300,
+          speed:300,
           autoplay: 3000,
-          autoplayDisableOnInteraction: false,
-          direction: 'horizontal',
-          grabCursor: true,
-          setWrapperSize: true,
+          autoplayDisableOnInteraction : false,
+          direction : 'horizontal',
+          grabCursor : true,
+          setWrapperSize :true,
           autoHeight: false,
           height: 270,
-          pagination: '.swiper-pagination',
-          paginationClickable: true,
-          prevButton: '.swiper-button-prev',
-          nextButton: '.swiper-button-next',
-          scrollbar: '.swiper-scrollbar',
-          scrollbarHide: true,
-          mousewheelControl: false,
-          observeParents: true,
+          pagination : '.swiper-pagination',
+          paginationClickable :true,
+          prevButton:'.swiper-button-prev',
+          nextButton:'.swiper-button-next',
+          scrollbar:'.swiper-scrollbar',
+          scrollbarHide:true,
+          mousewheelControl : false,
+          observeParents:true,
           debugger: true,
-          onTransitionStart (swiper) {
+          onTransitionStart(swiper){
             console.log(swiper)
-          }
+          },
         }
       }
     },
     computed: {
-      swiper () {
+      swiper() {
         return this.$refs.mySwiper.swiper
       }
     },
-    mounted () {
+    mounted() {
       console.log('this is current swiper instance object', this.swiper)
       this.swiper.slideTo(1, 1000, false)
     }
@@ -100,9 +103,8 @@
     left: 8px;
   }
   .txt{
-    margin: 12px auto;
-    width: 420px;
-    height: 227px;
+    width: 400px;
+    height: 240px;
     overflow: hidden;
     float: left;
     position: relative;
