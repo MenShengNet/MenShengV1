@@ -5,6 +5,10 @@ import register from '@/pages/welcome/register'
 import tool from '@/pages/welcome/tool'
 import recommend from '@/pages/welcome/recommend'
 import video from '@/pages/welcome/video'
+import slide from '@/pages/welcome/slide'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
 
@@ -34,6 +38,11 @@ export default new Router({
       path: '/video',
       name: 'video',
       component: video
+    },
+    {
+      path: '/slide',
+      name: 'slide',
+      component: slide
     }
   ]
 })
