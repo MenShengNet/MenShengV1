@@ -6,6 +6,8 @@ import tool from '@/pages/welcome/tool'
 import recommend from '@/pages/welcome/recommend'
 import video from '@/pages/welcome/video'
 import slide from '@/pages/welcome/slide'
+import footer from '@/pages/welcome/footer'
+import header from '@/pages/welcome/header'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
@@ -43,6 +45,16 @@ export default new Router({
       path: '/slide',
       name: 'slide',
       component: slide
+    },
+    {
+      path: '/footer',
+      name: 'footer',
+      component: footer
+    },
+    {
+      path: '/header',
+      name: 'header',
+      component: header
     }
   ]
 })
