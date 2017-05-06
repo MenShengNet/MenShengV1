@@ -1,6 +1,6 @@
 <template>
 <div>
-	  <div class="show clearFix">
+	  <div class="show clearFix w1140">
 			<div class="left">
 			    <video-player :options="playerOptions"></video-player>
         </div>
@@ -44,6 +44,7 @@ export default {
   .clearFix:after{content: "";display: block;clear: both;}
   .left{float: left;}
   .right{float: right;}
+  .show{margin-top: 0;position: relative;z-index:-1;margin-bottom: 30px;}
   .show .left{width: 876px;height: 492px;border: 16px solid rgb(189,204,212);}
   .show .right ul{border: 10px solid  rgb(189,204,212);}
   .show .right ul li{display: block;width: 186px;height: 118px;border:4px solid rgb(189,204,212);border-right: none;border-left:none;}

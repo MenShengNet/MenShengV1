@@ -53,7 +53,7 @@
           paginationClickable: true,
           prevButton: '.swiper-button-prev',
           nextButton: '.swiper-button-next',
-          scrollbar: '.swiper-scrollbar',
+          // scrollbar: '.swiper-scrollbar',
           scrollbarHide: true,
           mousewheelControl: false,
           observeParents: true,
@@ -88,8 +88,8 @@
   }
   .swiper-slide{ 
     height: 270px;
-    width: 1100px; 
-    background-size: 1100px 270px;
+    width: 1140px; 
+    background: center/cover;
   }
   .swiper-slide img{
     float: left;
@@ -128,6 +128,6 @@
   }
   .swiper-container{
     height: 270px;
-    width: 1100px;
+    width: 1140px;
   }
 </style>

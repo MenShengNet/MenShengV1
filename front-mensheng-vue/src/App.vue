@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+  	<heading></heading>
     <router-view></router-view>
+    <foot></foot>
   </div>
 </template>
 
 <script>
+import foot from '@/pages/welcome/footer'
+import heading from '@/pages/welcome/header'
 export default {
-  name: 'app'
+  name: 'app',
+  components:{foot,heading}
 }
 </script>
 
