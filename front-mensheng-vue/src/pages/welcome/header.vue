@@ -17,10 +17,12 @@
 	        </div>
 	        </li>
 	        <li>
+          <router-link to='/login' style="text-decoration:none; color:#000;">
 	          <div class="login">
 	            <div class="icon"></div>
 	            <span>注册/登录</span>
 	          </div>
+          </router-link>
 	        </li>
 	      </ul>
 	    </div>
