@@ -47,10 +47,10 @@ export default {
   .show .left{width: 876px;height: 492px;border: 16px solid rgb(189,204,212);}
   .show .right ul{border: 10px solid  rgb(189,204,212);}
   .show .right ul li{display: block;width: 186px;height: 118px;border:4px solid rgb(189,204,212);border-right: none;border-left:none;}
-  .show .right ul li.pic1{background: url("../public-image/UI-5.jpg") center/cover;}
-  .show .right ul li.pic2{background: url("../public-image/UI-2.jpg") center/cover;}
-  .show .right ul li.pic3{background: url("../public-image/UI-4.jpg") center/cover;}
-  .show .right ul li.pic4{background: url("../public-image/UI-3.jpg") center/cover;}
+  .show .right ul li.pic1{background: url("../../public-image/UI-5.jpg") center/cover;}
+  .show .right ul li.pic2{background: url("../../public-image/UI-2.jpg") center/cover;}
+  .show .right ul li.pic3{background: url("../../public-image/UI-4.jpg") center/cover;}
+  .show .right ul li.pic4{background: url("../../public-image/UI-3.jpg") center/cover;}
 </style>
 
 

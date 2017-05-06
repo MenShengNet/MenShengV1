@@ -4,6 +4,7 @@ import login from '@/pages/welcome/login'
 import register from '@/pages/welcome/register'
 import tool from '@/pages/welcome/tool'
 import recommend from '@/pages/welcome/recommend'
+import video from '@/pages/welcome/video'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/register',
       name: 'register',
       component: register
+    },
+    {
+      path: '/video',
+      name: 'video',
+      component: video
     }
   ]
 })
