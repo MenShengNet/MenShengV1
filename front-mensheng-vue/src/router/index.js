@@ -6,6 +6,9 @@ import welcome from '@/pages/welcome/welcome'
 
 import personal_detail from '@/pages/personal/personal_detail'
 import sidebar from '@/pages/personal/sidebar'
+import myCourse_option from '@/pages/personal/myCourse_option'
+import messageCenter_option from '@/pages/personal/messageCenter_option'
+import setting_option from '@/pages/personal/setting_option'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
@@ -29,6 +32,8 @@ export default new Router({
       name: 'register',
       component: register
     },
+
+    
     {
       path: '/personal_detail',
       name: 'personal_detail',
@@ -38,6 +43,21 @@ export default new Router({
       path: '/sidebar',
       name: 'sidebar',
       component: sidebar
+    },
+    {
+      path: '/myCourse_option',
+      name: 'myCourse_option',
+      component: myCourse_option
+    },
+    {
+      path: '/messageCenter_option',
+      name: 'messageCenter_option',
+      component: messageCenter_option
+    },
+    {
+      path: '/setting_option',
+      name: 'setting_option',
+      component: setting_option
     }
   ]
 })
