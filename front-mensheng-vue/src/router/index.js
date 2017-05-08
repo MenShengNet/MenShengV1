@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import login from '@/pages/welcome/login'
 import register from '@/pages/welcome/register'
 import welcome from '@/pages/welcome/welcome'
+import personal_detail from '@/pages/personal/personal_detail'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
@@ -26,5 +27,10 @@ export default new Router({
       name: 'register',
       component: register
     },
+    {
+      path: '/personal_detail',
+      name: 'personal_detail',
+      component: personal_detail
+    }
   ]
 })
