@@ -20,6 +20,8 @@ import feedback from '@/pages/personal/feedback'
 import follow from '@/pages/personal/follow'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+import course_setting from '@/pages/course/course_setting'
+
 Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
@@ -67,6 +69,11 @@ export default new Router({
       path: '/setting_option',
       name: 'setting_option',
       component: setting_option
+    },
+    {
+      path: '/course_setting',
+      name: 'course_setting',
+      component: course_setting
     },
     {
       path: '/liveList',
