@@ -12,6 +12,12 @@ import setting_option from '@/pages/personal/setting_option'
 import liveList from '@/pages/personal/liveList'
 import lessonInform from '@/pages/personal/lessonInform'
 import sysInform from '@/pages/personal/sysInform'
+import basicSetting from '@/pages/personal/basicSetting'
+import identify from '@/pages/personal/identify'
+import headChange from '@/pages/personal/headChange'
+import recharge from '@/pages/personal/recharge'
+import feedback from '@/pages/personal/feedback'
+import follow from '@/pages/personal/follow'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
@@ -76,6 +82,36 @@ export default new Router({
       path: '/sysInform',
       name: 'sysInform',
       component: sysInform
+    },
+    {
+      path: '/basicSetting',
+      name: 'basicSetting',
+      component: basicSetting
+    },
+    {
+      path: '/identify',
+      name: 'identify',
+      component: identify
+    },
+    {
+      path: '/headChange',
+      name: 'headChange',
+      component: headChange
+    },
+    {
+      path: '/recharge',
+      name: 'recharge',
+      component: recharge
+    },
+    {
+      path: '/feedback',
+      name: 'feedback',
+      component: feedback
+    },
+    {
+      path: '/follow',
+      name: 'follow',
+      component: follow
     }
   ]
 })
