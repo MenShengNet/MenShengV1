@@ -9,7 +9,7 @@
 		name: 'messageCenter_option'
 	}
 </script>
-<style>
+<style scoped>
 	.msgBtn{
 		border: 2px solid rgb(189,204,212);
 		display: inline-block;

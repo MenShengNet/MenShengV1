@@ -11,6 +11,8 @@ import messageCenter_option from '@/pages/personal/messageCenter_option'
 import setting_option from '@/pages/personal/setting_option'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+import course_setting from '@/pages/course/course_setting'
+
 Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
@@ -58,6 +60,11 @@ export default new Router({
       path: '/setting_option',
       name: 'setting_option',
       component: setting_option
+    },
+    {
+      path: '/course_setting',
+      name: 'course_setting',
+      component: course_setting
     }
   ]
 })
