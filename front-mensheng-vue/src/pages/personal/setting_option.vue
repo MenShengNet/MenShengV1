@@ -12,8 +12,8 @@
 		name: 'setting_option'
 	}
 </script>
-<style scoepd>
-	.msgBtn{
+<style scoped>
+	li{
 		border: 2px solid rgb(189,204,212);
 		display: inline-block;
 		margin-right: 22px;
