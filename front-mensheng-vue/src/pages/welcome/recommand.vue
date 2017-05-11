@@ -36,7 +36,7 @@ export default{
     return {
       information: [
         {
-          img: './images/UI-2.jpg',
+          img: require('./images/UI-2.jpg'),
           course: '信号与系统期末答疑',
           free: true,
           teacher: '吴哲夫',
@@ -45,7 +45,7 @@ export default{
           introduction: '个人简介之类的巴拉巴拉'
         },
         {
-          img: './images/UI-3.jpg',
+          img: require('./images/UI-3.jpg'),
           course: '信号与系统期末答疑',
           free: false,
           teacher: '吴哲夫',
@@ -54,7 +54,7 @@ export default{
           introduction: '个人简介之类的巴拉巴拉'
         },
         {
-          img: './images/UI-4.jpg',
+          img: require('./images/UI-4.jpg'),
           course: '信号与系统期末答疑',
           free: true,
           teacher: '吴哲夫',
@@ -63,7 +63,7 @@ export default{
           introduction: '个人简介之类的巴拉巴拉'
         },
         {
-          img: './images/UI-5.jpg',
+          img: require('./images/UI-5.jpg'),
           course: '信号与系统期末答疑',
           free: false,
           teacher: '吴哲夫',

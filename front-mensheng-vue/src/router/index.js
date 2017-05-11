@@ -9,6 +9,9 @@ import sidebar from '@/pages/personal/sidebar'
 import myCourse_option from '@/pages/personal/myCourse_option'
 import messageCenter_option from '@/pages/personal/messageCenter_option'
 import setting_option from '@/pages/personal/setting_option'
+import liveList from '@/pages/personal/liveList'
+import lessonInform from '@/pages/personal/lessonInform'
+import sysInform from '@/pages/personal/sysInform'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
@@ -58,6 +61,21 @@ export default new Router({
       path: '/setting_option',
       name: 'setting_option',
       component: setting_option
+    },
+    {
+      path: '/liveList',
+      name: 'liveList',
+      component: liveList
+    },
+    {
+      path: '/lessonInform',
+      name: 'lessonInform',
+      component: lessonInform
+    },
+    {
+      path: '/sysInform',
+      name: 'sysInform',
+      component: sysInform
     }
   ]
 })
