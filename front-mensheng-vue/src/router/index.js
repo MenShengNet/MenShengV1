@@ -24,7 +24,6 @@ import course_discussion from '@/pages/course/course_discussion'
 import course_discussion_detail from '@/pages/course/course_discussion_detail'
 import course_vedio from '@/pages/course/course_vedio'
 import course_paper from '@/pages/course/course_paper'
->>>>>>> ckw
 
 Vue.use(VueAwesomeSwiper)
 
