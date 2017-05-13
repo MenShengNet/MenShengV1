@@ -15,6 +15,10 @@ import sysInform from '@/pages/personal/sysInform'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 import course_setting from '@/pages/course/course_setting'
+import course_discussion from '@/pages/course/course_discussion'
+import course_discussion_detail from '@/pages/course/course_discussion_detail'
+import course_vedio from '@/pages/course/course_vedio'
+import course_paper from '@/pages/course/course_paper'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -68,6 +72,26 @@ export default new Router({
       path: '/course_setting',
       name: 'course_setting',
       component: course_setting
+    },
+    {
+      path: '/course_discussion',
+      name: 'course_discussion',
+      component: course_discussion
+    },
+    {
+      path: '/course_discussion_detail',
+      name: 'course_discussion_detail',
+      component: course_discussion_detail
+    },
+    {
+      path: '/course_vedio',
+      name: 'course_vedio',
+      component: course_vedio
+    },
+    {
+      path: '/course_paper',
+      name: 'course_paper',
+      component: course_paper
     },
     {
       path: '/liveList',
