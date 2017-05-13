@@ -1,5 +1,5 @@
 <template>
-  <div class="wrap">
+  <div class="wrap fr">
     <div class="inform-item">
       <div class="content">
         <div class="icon fl icon1"></div>

@@ -1,22 +1,30 @@
 <template>
   <div>
     <ul>
-      <li>
-        <i class="iconfont icon-office"></i>
-        <span style="margin-left:10px;">我的课程</span>
-      </li>
-      <li>
-        <i class="iconfont icon-comments"></i>
-        <span style="margin-left:10px;">消息中心</span>
-      </li>
-      <li>
-        <i class="iconfont icon-set"></i>
-        <span style="margin-left:10px;">个人设置</span>
-      </li>
-      <li>
-        <i class="iconfont icon-favoritesfilling"></i>
-        <span style="margin-left:10px;">关注</span>
-      </li>
+      <router-link to='/personal/myCourseOption'>
+        <li>
+          <i class="iconfont icon-office"></i>
+          <span>我的课程</span>
+        </li>
+      </router-link>
+      <router-link to="/personal/messageCenterOption">
+        <li>
+          <i class="iconfont icon-comments"></i>
+          <span>消息中心</span>
+        </li>
+      </router-link>
+      <router-link to="/personal/settingOption">
+        <li>
+          <i class="iconfont icon-set"></i>
+          <span>个人设置</span>
+        </li>
+      </router-link>
+      <router-link to='/personal/follow'>
+        <li>
+          <i class="iconfont icon-favoritesfilling"></i>
+          <span>关注</span>
+        </li>
+      </router-link>
     </ul>
   </div>
 </template>
@@ -50,24 +58,34 @@
 
 .icon-favoritesfilling:before { content: "\e730"; }
 
+div{
+  float: left;
+  margin-right: 40px;
+}
 li{
-  width: 210px;
+  width: 210px; 
   height: 48px;
   background: rgb(189,204,212);
   line-height: 48px;
-  margin: 10px 0;
+  margin: 5px 0;
   cursor: pointer;
-  transition: 0.1s;
+}
+li:nth-child(1){
+  margin-top: 0;
 }
 i{
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 20px;
   vertical-align: middle;
+  color: rgb(136,160,170);
+  transition: 0.1s;
 }
 span{
   vertical-align: middle;
+  color: #fff;
+  margin-left: 10px;
 }
-li:hover{
+li:hover i{
   color: #fff;
 }
 </style>

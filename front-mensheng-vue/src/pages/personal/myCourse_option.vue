@@ -1,8 +1,9 @@
 <template>
 	<div>
-		<div class="msgBtn"><p>直播课</p></div>
-	  <div class="msgBtn"><p>视频课</p></div>
-	  <div class="msgBtn"><p>已结束</p></div>
+		<router-link to="/personal/myCourseOption/liveList"><div class="msgBtn"><p>直播课</p></div></router-link>
+	  <router-link to="/personal/myCourseOption/video"><div class="msgBtn"><p>视频课</p></div></router-link>
+	  <router-link to="/personal/myCourseOption/finished"><div class="msgBtn"><p>已结束</p></div></router-link>
+	  <router-view></router-view>
 	</div>
 </template>
 <script>
@@ -26,4 +27,5 @@
   	line-height: 36px;
   	background: rgb(189,204,212);
   }
+  a{color: #000;}
 </style>

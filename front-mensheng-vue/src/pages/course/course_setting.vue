@@ -5,7 +5,7 @@
         </div>
         <div class="text">
             <p>课内信息设置：</p><br><br>
-            <form>
+            <form method="post">
                 <b>学&nbsp;&nbsp;院：&nbsp;&nbsp;</b><input class="txt" type="text" name="college"><br><br>
                 <b>班&nbsp;&nbsp;级：&nbsp;&nbsp;</b><input class="txt" type="text" name="class"><br><br>
                 <b>学&nbsp;&nbsp;号：&nbsp;&nbsp;</b><input class="txt" type="text" name="stu-number"><br><br>

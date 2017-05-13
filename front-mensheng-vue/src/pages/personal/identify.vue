@@ -1,5 +1,5 @@
 <template>
-	<form class="identify clearFix">
+	<form class="identify clearFix fr">
     <div class="mt20 ml40 block">
       <legend class="fl">申请认证资格：</legend>
       <select name="" id="">
@@ -28,7 +28,7 @@
 	}
 </script>
 <style scoped>
-	.identify{width: 896px;height: 745px;border: 2px solid rgb(189,204,212);margin-top: 10px;}
+	.identify{width: 886px;height: 745px;border: 2px solid rgb(189,204,212);margin-top: 10px;}
     .identify .idCard .img{width: 340px;height: 200px;padding: 8px;border: 2px solid rgb(189,204,212);}
     .identify .teachQualification .img{width: 340px;height: 200px;padding: 8px;border: 2px solid rgb(189,204,212);}
     .identify legend{width: 140px;line-height: 35px;}

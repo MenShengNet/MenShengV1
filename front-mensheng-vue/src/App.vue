@@ -27,5 +27,6 @@ li{list-style: none;}
 .left,.fl{float: left;}
 .right,.fr{float: right;}
 .bd{border: 2px solid rgb(189,204,212);}
+a{text-decoration: none;}
 /*公共样式结束*/
 </style>

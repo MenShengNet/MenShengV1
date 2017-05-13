@@ -1,5 +1,5 @@
 <template>
-	<div class="head-change bd">
+	<div class="head-change bd fr">
     <div class="preview bd clearFix">
       <div class="big fl"></div>
       <div class="small fl"></div>
@@ -25,7 +25,8 @@
 	}
 </script>
 <style scoped>
-	  .head-change .preview{width: 468px;height: 234px;margin: 30px auto;}
+  .head-change{width:886px;margin-top: 10px;}
+	.head-change .preview{width: 468px;height: 234px;margin: 30px auto;}
   .head-change .preview .big{width: 175px;height: 175px;border: 1px solid;border-radius: 50%;margin: 28px 0 0 90px;}
   .head-change .preview .small{width: 47px;height: 47px;border: 1px solid;border-radius: 50%;margin: 93px 0 0 66px;}
   .head-change .btn{width: 468px;height: 90px;margin: auto;}

@@ -1,5 +1,5 @@
 <template>
-	<form class="basic-setting">
+	<form class="basic-setting fr">
     <div><legend class="fl">昵称</legend><input type="text"></div>
     <div><legend class="fl">手机号</legend><input type="text"></div>
     <div><legend class="fl">邮箱</legend><input type="text"></div>
@@ -92,7 +92,7 @@
 	}
 </script>
 <style scoped>
-	 .basic-setting{margin-top:10px;width: 850px;height: 705px;padding: 25px;border: 2px solid rgb(189,204,212);}
+	.basic-setting{margin-top:10px;width: 836px;height: 705px;padding: 25px;border: 2px solid rgb(189,204,212);}
     .basic-setting div{margin-bottom: 15px;}
     .basic-setting legend{display: inline-block;width: 80px;font-size: 18px;text-align: right;line-height: 35px;padding-right: 20px;}
     .basic-setting input[type="text"]{width: 300px;height: 35px;border: 2px solid rgb(189,204,212);}

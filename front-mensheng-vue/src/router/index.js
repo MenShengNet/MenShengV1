@@ -3,12 +3,11 @@ import Router from 'vue-router'
 import login from '@/pages/welcome/login'
 import register from '@/pages/welcome/register'
 import welcome from '@/pages/welcome/welcome'
+import personal from '@/pages/personal/personal'
 
-import personal_detail from '@/pages/personal/personal_detail'
-import sidebar from '@/pages/personal/sidebar'
-import myCourse_option from '@/pages/personal/myCourse_option'
-import messageCenter_option from '@/pages/personal/messageCenter_option'
-import setting_option from '@/pages/personal/setting_option'
+import myCourseOption from '@/pages/personal/myCourse_option'
+import settingOption from '@/pages/personal/setting_option'
+import messageCenterOption from '@/pages/personal/messageCenter_option'
 import liveList from '@/pages/personal/liveList'
 import lessonInform from '@/pages/personal/lessonInform'
 import sysInform from '@/pages/personal/sysInform'
@@ -18,9 +17,9 @@ import headChange from '@/pages/personal/headChange'
 import recharge from '@/pages/personal/recharge'
 import feedback from '@/pages/personal/feedback'
 import follow from '@/pages/personal/follow'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 import course_setting from '@/pages/course/course_setting'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -28,8 +27,13 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    {path:'/',redirect:'/welcome'},
+    {path:'/personal',redirect:'/personal/myCourseOption/liveList'},
+    {path:'/personal/myCourseOption',redirect:'/personal/myCourseOption/liveList'},
+    {path:'/personal/messageCenterOption',redirect:'/personal/messageCenterOption/lessonInform'},
+    {path:'/personal/settingOption',redirect:'/personal/settingOption/basicSetting'},
     {
-      path: '/',
+      path: '/welcome',
       name: 'welcome',
       component: welcome
     },
@@ -43,82 +47,51 @@ export default new Router({
       name: 'register',
       component: register
     },
-
-    
     {
-      path: '/personal_detail',
-      name: 'personal_detail',
-      component: personal_detail
-    },
-    {
-      path: '/sidebar',
-      name: 'sidebar',
-      component: sidebar
-    },
-    {
-      path: '/myCourse_option',
-      name: 'myCourse_option',
-      component: myCourse_option
-    },
-    {
-      path: '/messageCenter_option',
-      name: 'messageCenter_option',
-      component: messageCenter_option
-    },
-    {
-      path: '/setting_option',
-      name: 'setting_option',
-      component: setting_option
+      path: '/personal',
+      name: 'personal',
+      component: personal,
+      children:[
+        {
+          path:'/personal/myCourseOption',
+          component:myCourseOption,
+          children:[
+            {path:'/personal/myCourseOption/liveList',component:liveList},
+            {path:'/personal/myCourseOption/video',component:liveList},
+            {path:'/personal/myCourseOption/finished',component:liveList}
+          ]
+        },
+        {
+          path:'/personal/settingOption',
+          component:settingOption,
+          children:[
+            {path:'/personal/settingOption/basicSetting',component:basicSetting},
+            {path:'/personal/settingOption/identify',component:identify},
+            {path:'/personal/settingOption/headChange',component:headChange},
+            {path:'/personal/settingOption/recharge',component:recharge},
+            {path:'/personal/settingOption/feedback',component:feedback},
+          ]
+        },
+        {
+          path:'/personal/messageCenterOption',
+          component:messageCenterOption,
+          children:[
+            {path:'/personal/messageCenterOption/lessonInform',component:lessonInform},
+            {path:'/personal/messageCenterOption/sysInform',component:sysInform}
+          ]
+        },
+        {
+          path: '/personal/follow',
+          name: 'follow',
+          component: follow
+        }
+      ]
     },
     {
       path: '/course_setting',
       name: 'course_setting',
       component: course_setting
-    },
-    {
-      path: '/liveList',
-      name: 'liveList',
-      component: liveList
-    },
-    {
-      path: '/lessonInform',
-      name: 'lessonInform',
-      component: lessonInform
-    },
-    {
-      path: '/sysInform',
-      name: 'sysInform',
-      component: sysInform
-    },
-    {
-      path: '/basicSetting',
-      name: 'basicSetting',
-      component: basicSetting
-    },
-    {
-      path: '/identify',
-      name: 'identify',
-      component: identify
-    },
-    {
-      path: '/headChange',
-      name: 'headChange',
-      component: headChange
-    },
-    {
-      path: '/recharge',
-      name: 'recharge',
-      component: recharge
-    },
-    {
-      path: '/feedback',
-      name: 'feedback',
-      component: feedback
-    },
-    {
-      path: '/follow',
-      name: 'follow',
-      component: follow
     }
+    
   ]
 })

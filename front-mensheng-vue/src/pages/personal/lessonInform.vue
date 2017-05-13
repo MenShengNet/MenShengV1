@@ -1,5 +1,5 @@
 <template>
-  <div class="wrap">
+  <div class="wrap fr">
 	  <div class="container" v-for="item in information">
 	    <div class="img fl">
 	    	<img :src=item.img alt="" width="200" height="130">
@@ -61,7 +61,7 @@
 </script>
 <style scoped>
   .wrap{margin-top: 10px}
-  .container{width: 877px;height: 130px;padding: 5px;border: 2px solid rgb(189,204,212);position: relative;margin-bottom: 10px;}
+  .container{width: 876px;height: 130px;padding: 5px;border: 2px solid rgb(189,204,212);position: relative;margin-bottom: 10px;}
   .container .img{margin-right: 15px;}
   .container .txt .lesson{font-size: 18px;}
   .container .txt .teacher,.progress,.school{font-size: 12px;margin: 8px 0}
