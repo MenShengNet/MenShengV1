@@ -60,13 +60,42 @@
 	}
 </script>
 <style scoped>
-  .wrap{margin-top: 10px}
-  .container{width: 876px;height: 130px;padding: 5px;border: 2px solid rgb(189,204,212);position: relative;margin-bottom: 10px;}
-  .container .img{margin-right: 15px;}
-  .container .txt .lesson{font-size: 18px;}
-  .container .txt .teacher,.progress,.school{font-size: 12px;margin: 8px 0}
-  .container .txt .progress{color: rgb(189,204,212);}
-  .container .txt .school{position: absolute;bottom: 3px;margin: 0;color: #7e7e7e;}
-  .container .state{width: 440px;height: 128px;border: 1px solid rgb(189,204,212);}
-  .container .state p{text-indent: 5px;}
+  .wrap{
+  	margin-top: 10px
+  }
+  .container{
+  	width: 876px;
+  	height: 130px;
+  	padding: 5px;
+  	border: 2px solid rgb(189,204,212);
+  	position: relative;
+  	margin-bottom: 10px;
+  }
+  .container .img{
+  	margin-right: 15px;
+  }
+  .container .txt .lesson{
+  	font-size: 18px;
+  }
+  .container .txt .teacher,.progress,.school{
+  	font-size: 12px;
+  	margin: 8px 0
+  }
+  .container .txt .progress{
+  	color: rgb(189,204,212);
+  }
+  .container .txt .school{
+  	position: absolute;
+  	bottom: 3px;
+  	margin: 0;
+  	color: #7e7e7e;
+  }
+  .container .state{
+  	width: 440px;
+  	height: 128px;
+  	border: 1px solid rgb(189,204,212);
+  }
+  .container .state p{
+  	text-indent: 5px;
+  }
 </style>

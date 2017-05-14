@@ -115,22 +115,6 @@ export default new Router({
       path: '/course_paper',
       name: 'course_paper',
       component: course_paper
-    },
-    {
-      path: '/liveList',
-      name: 'liveList',
-      component: liveList
-    },
-    {
-      path: '/lessonInform',
-      name: 'lessonInform',
-      component: lessonInform
-    },
-    {
-      path: '/sysInform',
-      name: 'sysInform',
-      component: sysInform
     }
-    
   ]
 })

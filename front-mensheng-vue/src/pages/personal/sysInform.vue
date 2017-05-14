@@ -32,14 +32,48 @@
 	}
 </script>
 <style scoped>
-	.lesson-inform,.sys-inform{width: 146px;height: 36px;margin: 3px;font-size: 18px;display: inline-block;text-indent: 8px;line-height: 36px;background: rgb(189,204,212);}
-	.wrap{margin-top: 10px;}
-	.wrap .inform-item{width: 885px;height: 75px;border: 2px solid rgb(189,204,212);margin-bottom: 10px;}
-	.wrap .inform-item .content{margin-top:13px;}
-	.wrap .inform-item .content .icon{width: 50px;height: 50px;border-radius: 50%;background: url("../../public-image/qietu2.png")}
-	.wrap .inform-item .content .icon1{background-position: -148px -371px;}
-	.wrap .inform-item .content .icon2{background-position: -80px -371px;}
-	.wrap .inform-item .content .icon3{background-position: -11px -433px;}
-	.wrap .inform-item .content .icon4{background-position: -11px -371px;}
-	.wrap .inform-item .content p{line-height: 50px;margin-left: 10px}
+	.lesson-inform,.sys-inform{
+		width: 146px;
+		height: 36px;
+		margin: 3px;
+		font-size: 18px;
+		display: inline-block;
+		text-indent: 8px;
+		line-height: 36px;
+		background: rgb(189,204,212);
+	}
+	.wrap{
+		margin-top: 10px;
+	}
+	.wrap .inform-item{
+		width: 885px;
+		height: 75px;
+		border: 2px solid rgb(189,204,212);
+		margin-bottom: 10px;
+	}
+	.wrap .inform-item .content{
+		margin-top:13px;
+	}
+	.wrap .inform-item .content .icon{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: url("../../public-image/qietu2.png")
+	}
+	.wrap .inform-item .content .icon1{
+		background-position: -148px -371px;
+	}
+	.wrap .inform-item .content .icon2{
+		background-position: -80px -371px;
+	}
+	.wrap .inform-item .content .icon3{
+		background-position: -11px -433px;
+	}
+	.wrap .inform-item .content .icon4{
+		background-position: -11px -371px;
+	}
+	.wrap .inform-item .content p{
+		line-height: 50px;
+		margin-left: 10px;
+	}
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<form class="basic-setting fr">
+  <form class="basic-setting fr">
     <div><legend class="fl">昵称</legend><input type="text"></div>
     <div><legend class="fl">手机号</legend><input type="text"></div>
     <div><legend class="fl">邮箱</legend><input type="text"></div>
@@ -81,27 +81,66 @@
         <option>31</option>
       </select>日
     </div><br />
-    <div><legend class="fl">简介</legend>
-      <textarea name="" id="" cols="41" rows="10"></textarea></div>
+    <div>
+      <legend class="fl">简介</legend>
+      <textarea name="" id="" cols="41" rows="10"></textarea>
+    </div>
   </form>
-
 </template>
 <script>
-	export default{
-		name: 'basicSetting'
-	}
+  export default{
+    name: 'basicSetting'
+  }
 </script>
 <style scoped>
-	.basic-setting{margin-top:10px;width: 836px;height: 705px;padding: 25px;border: 2px solid rgb(189,204,212);}
-    .basic-setting div{margin-bottom: 15px;}
-    .basic-setting legend{display: inline-block;width: 80px;font-size: 18px;text-align: right;line-height: 35px;padding-right: 20px;}
-    .basic-setting input[type="text"]{width: 300px;height: 35px;border: 2px solid rgb(189,204,212);}
-    .basic-setting input[type="radio"]{margin-right: 20px}
-    .basic-setting textarea{resize: none;border: 2px solid rgb(189,204,212);}
-    .basic-setting .sex .icon{display: inline-block;width: 26px;height: 26px;background:url("../../public-image/qietu2.png");vertical-align: bottom;margin-right: 5px;}
-    .basic-setting .sex .secret{margin-right: 5px;}
-    .basic-setting .sex .icon1{background-position: -58px -293px;}
-    .basic-setting .sex .icon2{background-position: -102px -293px;}
-    .basic-setting select{width: 81px;height: 35px;border: 2px solid rgb(189,204,212);}
-
+  .basic-setting{
+    margin-top:10px;
+    width: 836px;
+    height: 705px;
+    padding: 25px;
+    border: 2px solid rgb(189,204,212);
+  }
+  .basic-setting div{
+    margin-bottom: 15px;
+  }
+  .basic-setting legend{
+    display: inline-block;
+    width: 80px;
+    font-size: 18px;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+  }
+  .basic-setting input[type="text"]{
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgb(189,204,212);
+  }
+  .basic-setting input[type="radio"]{
+    margin-right: 20px
+  }
+  .basic-setting textarea{
+    resize: none;
+    border: 2px solid rgb(189,204,212);
+  }
+  .basic-setting .sex .icon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background:url("../../public-image/qietu2.png");
+    vertical-align: bottom;margin-right: 5px;
+  }
+  .basic-setting .sex .secret{
+    margin-right: 5px;
+  }
+  .basic-setting .sex .icon1{
+    background-position: -58px -293px;
+  }
+  .basic-setting .sex .icon2{
+    background-position: -102px -293px;
+  }
+  .basic-setting select{
+    width: 81px;height: 35px;
+    border: 2px solid rgb(189,204,212);
+  }
 </style>

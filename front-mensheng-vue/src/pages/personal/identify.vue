@@ -28,13 +28,45 @@
 	}
 </script>
 <style scoped>
-	.identify{width: 886px;height: 745px;border: 2px solid rgb(189,204,212);margin-top: 10px;}
-    .identify .idCard .img{width: 340px;height: 200px;padding: 8px;border: 2px solid rgb(189,204,212);}
-    .identify .teachQualification .img{width: 340px;height: 200px;padding: 8px;border: 2px solid rgb(189,204,212);}
-    .identify legend{width: 140px;line-height: 35px;}
-    .identify .note{margin-left: 180px;color: #888;font-size: 14px;margin-top: 10px;}
-    .identify select{border: 2px solid rgb(189,204,212);width: 355px;height: 35px;}
-    .identify input[type="file"]{position: absolute;right: 110px;bottom: 0;}
-    .identify .block{position: relative;}
-
+	.identify{
+    width: 886px;
+    height: 745px;
+    border: 2px solid rgb(189,204,212);
+    margin-top: 10px;
+  }
+  .identify .idCard .img{
+    width: 340px;
+    height: 200px;
+    padding: 8px;
+    border: 2px solid rgb(189,204,212);
+  }
+  .identify .teachQualification .img{
+    width: 340px;
+    height: 200px;
+    padding: 8px;
+    border: 2px solid rgb(189,204,212);
+  }
+  .identify legend{
+    width: 140px;
+    line-height: 35px;
+  }
+  .identify .note{
+    margin-left: 180px;
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .identify select{
+    border: 2px solid rgb(189,204,212);
+    width: 355px;
+    height: 35px;
+  }
+  .identify input[type="file"]{
+    position: absolute;
+    right: 110px;
+    bottom: 0;
+  }
+  .identify .block{
+    position: relative;
+  }
 </style>
