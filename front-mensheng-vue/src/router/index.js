@@ -25,6 +25,9 @@ import course_discussion_detail from '@/pages/course/course_discussion_detail'
 import course_vedio from '@/pages/course/course_vedio'
 import course_paper from '@/pages/course/course_paper'
 
+import course_detail from '@/pages/introduce/course-detail'
+import course_list from '@/pages/lists/course_list'
+
 Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
@@ -115,6 +118,16 @@ export default new Router({
       path: '/course_paper',
       name: 'course_paper',
       component: course_paper
+    },
+    {
+      path: '/course-detail',
+      name: 'course-detail',
+      component: course_detail
+    },
+    {
+      path: '/course_list',
+      name: 'course_list',
+      component: course_list
     }
   ]
 })
