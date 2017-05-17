@@ -24,6 +24,20 @@ import course_discussion from '@/pages/course/course_discussion'
 import course_discussion_detail from '@/pages/course/course_discussion_detail'
 import course_vedio from '@/pages/course/course_vedio'
 import course_paper from '@/pages/course/course_paper'
+import course_header from '@/pages/course/course_header'
+import course_nav from '@/pages/course/course_nav'
+import course_ware from '@/pages/course/course_ware'
+import course_notice from '@/pages/course/course_notice'
+import course_work from '@/pages/course/course_work'
+import course_exam from '@/pages/course/course_exam'
+import course_exam_detail from '@/pages/course/course_exam_detail'
+import course_work_detail from '@/pages/course/course_work_detail'
+
+import course from '@/pages/course/index'
+
+
+import course_detail from '@/pages/introduce/course-detail'
+import course_list from '@/pages/lists/course_list'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -115,6 +129,84 @@ export default new Router({
       path: '/course_paper',
       name: 'course_paper',
       component: course_paper
+    },
+    {
+<<<<<<< HEAD
+      path: '/course_header',
+      name: 'course_header',
+      component: course_header
+    },
+    {
+      path: "/course_nav",
+      name: 'course_nav',
+      component: course_nav
+    },
+    {
+      path: '/course_ware',
+      name: 'course_ware',
+      component: course_ware
+    },
+    {
+      path: '/course',
+      name: 'course',
+      component: course,
+      children: [
+        {
+          path: '/course/setting',
+          component: course_setting
+        },
+        {
+          path: '/course/vedio',
+          component: course_vedio
+        },
+        {
+          path: '/course/paper',
+          component: course_paper,
+        },
+        {
+          path: '/course/discussion',
+          component: course_discussion
+        },
+        {
+          path: '/course/discussion/detail',
+          component: course_discussion_detail
+        },
+        {
+          path: '/course/ware',
+          component: course_ware
+        },
+        {
+          path: '/course/notice',
+          component: course_notice
+        },
+        {
+          path: '/course/work',
+          component: course_work
+        },
+        {
+          path: '/course/exam',
+          component: course_exam
+        },
+        {
+          path: '/course/work/detail',
+          component: course_work_detail
+        },
+        {
+          path: '/course/exam/detail',
+          component: course_exam_detail
+
+        }
+      ]
+=======
+      path: '/course-detail',
+      name: 'course-detail',
+      component: course_detail
+    },
+    {
+      path: '/course_list',
+      name: 'course_list',
+      component: course_list
+>>>>>>> 9ed5d6dc56f8f1979389de724b919f2a65edea2c
     }
   ]
 })
