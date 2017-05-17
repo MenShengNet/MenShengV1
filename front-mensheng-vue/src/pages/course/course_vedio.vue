@@ -78,6 +78,7 @@
         height: 45px;
         border-bottom: 5px solid rgb(190,204,213);
         margin: 15px 0;
+        margin-top: -8px;
     }
     .setting-name p{
         margin: 0 0 0 22px;
