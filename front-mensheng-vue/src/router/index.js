@@ -29,9 +29,9 @@ import course_nav from '@/pages/course/course_nav'
 import course_ware from '@/pages/course/course_ware'
 import course_notice from '@/pages/course/course_notice'
 import course_work from '@/pages/course/course_work'
-import course_exam from '@/pages/course/course_exam'
+// import course_exam from '@/pages/course/course_exam'
 import course_exam_detail from '@/pages/course/course_exam_detail'
-import course_work_detail from '@/pages/course/course_work_detail'
+// import course_work_detail from '@/pages/course/course_work_detail'
 
 import course from '@/pages/course/index'
 
@@ -39,8 +39,6 @@ import course from '@/pages/course/index'
 import course_detail from '@/pages/introduce/course-detail'
 import course_list from '@/pages/lists/course_list'
 
-import course_detail from '@/pages/introduce/course-detail'
-import course_list from '@/pages/lists/course_list'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -134,9 +132,6 @@ export default new Router({
       component: course_paper
     },
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
       path: '/course_header',
       name: 'course_header',
       component: course_header
@@ -188,22 +183,21 @@ export default new Router({
           path: '/course/work',
           component: course_work
         },
-        {
-          path: '/course/exam',
-          component: course_exam
-        },
-        {
-          path: '/course/work/detail',
-          component: course_work_detail
-        },
+        // {
+        //   path: '/course/exam',
+        //   component: course_exam
+        // },
+        // {
+        //   path: '/course/work/detail',
+        //   component: course_work_detail
+        // },
         {
           path: '/course/exam/detail',
           component: course_exam_detail
 
         }
-      ]
-=======
->>>>>>> fb282f3b650f9f17cca8aadc684d1c12422b6340
+      ]},
+	{
       path: '/course-detail',
       name: 'course-detail',
       component: course_detail
@@ -212,10 +206,6 @@ export default new Router({
       path: '/course_list',
       name: 'course_list',
       component: course_list
-<<<<<<< HEAD
-=======
->>>>>>> 9ed5d6dc56f8f1979389de724b919f2a65edea2c
->>>>>>> fb282f3b650f9f17cca8aadc684d1c12422b6340
     }
   ]
 })

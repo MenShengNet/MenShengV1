@@ -66,7 +66,7 @@
 	.kuai12 , .kuai13 {
 		border: 2px #c2cacf solid;
     	margin-top: 15px;
-    	margin-right:: 15px;
+    	margin-right: 15px;
     	width: 720px;
     	padding: 0px;
     	white-space: wrap;
