@@ -29,9 +29,9 @@ import course_nav from '@/pages/course/course_nav'
 import course_ware from '@/pages/course/course_ware'
 import course_notice from '@/pages/course/course_notice'
 import course_work from '@/pages/course/course_work'
-import course_exam from '@/pages/course/course_exam'
+// import course_exam from '@/pages/course/course_exam'
 import course_exam_detail from '@/pages/course/course_exam_detail'
-import course_work_detail from '@/pages/course/course_work_detail'
+// import course_work_detail from '@/pages/course/course_work_detail'
 
 import course from '@/pages/course/index'
 
@@ -39,8 +39,6 @@ import course from '@/pages/course/index'
 import course_detail from '@/pages/introduce/course-detail'
 import course_list from '@/pages/lists/course_list'
 
-import course_detail from '@/pages/introduce/course-detail'
-import course_list from '@/pages/lists/course_list'
 
 Vue.use(VueAwesomeSwiper)
 
@@ -186,19 +184,20 @@ export default new Router({
           path: '/course/work',
           component: course_work
         },
-        {
-          path: '/course/exam',
-          component: course_exam
-        },
-        {
-          path: '/course/work/detail',
-          component: course_work_detail
-        },
+        // {
+        //   path: '/course/exam',
+        //   component: course_exam
+        // },
+        // {
+        //   path: '/course/work/detail',
+        //   component: course_work_detail
+        // },
         {
           path: '/course/exam/datail',
           component: course_exam_detail
 
         }
+<<<<<<< HEAD
 
       ],
 
@@ -207,6 +206,10 @@ export default new Router({
       // component: course_detail
 
 
+=======
+      ]},
+	{
+>>>>>>> 00be19ede698e7aa68132e07b9d111914c0c8179
       path: '/course-detail',
       name: 'course-detail',
       component: course_detail
