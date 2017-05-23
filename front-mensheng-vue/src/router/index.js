@@ -22,7 +22,7 @@ import course_setting from '@/pages/course/course_setting'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import course_discussion from '@/pages/course/course_discussion'
 import course_discussion_detail from '@/pages/course/course_discussion_detail'
-import course_vedio from '@/pages/course/course_vedio'
+import course_video from '@/pages/course/course_video'
 import course_paper from '@/pages/course/course_paper'
 import course_header from '@/pages/course/course_header'
 import course_nav from '@/pages/course/course_nav'
@@ -35,9 +35,6 @@ import course_work_detail from '@/pages/course/course_work_detail'
 
 import course from '@/pages/course/index'
 
-
-import course_detail from '@/pages/introduce/course-detail'
-import course_list from '@/pages/lists/course_list'
 
 import course_detail from '@/pages/introduce/course-detail'
 import course_list from '@/pages/lists/course_list'
@@ -124,9 +121,9 @@ export default new Router({
       component: course_discussion_detail
     },
     {
-      path: '/course_vedio',
-      name: 'course_vedio',
-      component: course_vedio
+      path: '/course_video',
+      name: 'course_video',
+      component: course_video
     },
     {
       path: '/course_paper',
@@ -159,8 +156,8 @@ export default new Router({
           component: course_setting
         },
         {
-          path: '/course/vedio',
-          component: course_vedio
+          path: '/course/video',
+          component: course_video
         },
         {
           path: '/course/paper',

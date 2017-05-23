@@ -5,7 +5,7 @@
         </div>
         <div class="button">
           <div class="left">
-              <img src="./images/vedio2.png">
+              <img src="./images/video2.png">
           </div>
           <div class="right">
               <img src="./images/paper1.png">

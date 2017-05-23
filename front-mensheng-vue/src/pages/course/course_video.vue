@@ -5,7 +5,7 @@
         </div>
         <div class="button">
           <div class="left">
-              <img src="./images/vedio1.png">
+              <img src="./images/video1.png">
           </div>
           <div class="right">
               <img src="./images/paper2.png">
@@ -37,7 +37,7 @@
     import { videoPlayer } from 'vue-video-player'
     Vue.use(videoPlayer);
     export default {
-    name: 'course_vedio',
+    name: 'course_video',
     data() {
       return {      
         comments: [
