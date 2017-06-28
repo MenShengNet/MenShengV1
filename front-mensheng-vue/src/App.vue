@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-  	<heading></heading>
- 
+  	<headlogin></headlogin>
+    <heading></heading>
     <router-view></router-view>
   
     <foot></foot>
@@ -11,9 +11,11 @@
 <script>
 import foot from '@/pages/welcome/footer'
 import heading from '@/pages/welcome/header'
+import headlogin from '@/pages/welcome/header-login'
+
 export default {
   name: 'app',
-  components:{foot,heading}
+  components:{heading,foot}
 }
 </script>
 

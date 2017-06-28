@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import store from '@/store/index.js'
+
 import login from '@/pages/welcome/login'
 import register from '@/pages/welcome/register'
 import welcome from '@/pages/welcome/welcome'
@@ -42,6 +44,7 @@ import course_list from '@/pages/lists/course_list'
 Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
+
 
 export default new Router({
   routes: [
@@ -201,12 +204,10 @@ export default new Router({
 
       // path: '/course-detail',
       // name: 'course-detail',
+      // component: course_detail,
+      // path: '/course-detail',
+      // name: 'course-detail',
       // component: course_detail
-
-
-      path: '/course-detail',
-      name: 'course-detail',
-      component: course_detail
 
     },
     {
@@ -216,3 +217,7 @@ export default new Router({
     }
   ]
 })
+
+
+
+

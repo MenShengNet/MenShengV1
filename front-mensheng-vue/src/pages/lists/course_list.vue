@@ -42,6 +42,8 @@
 <script>
   export default{
     name: 'course_list',
+    beforeCreate() {
+    },
     data () {
       return {
         information:[

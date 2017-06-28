@@ -27,8 +27,8 @@ export default {
           playsinline: false,
           language: 'zh-CH',
           sources: [{
-            type: "video/x-flv",
-            src: "http://flv41144ee2.live.126.net/live/2123c3301cee4e3ba6c1c07f202045a8.flv?netease=flv41144ee2.live.126.net"
+            type: "video/mp4",
+            src: "E:\视频视频\Let it be.mp4"
           }],
           poster: "/static/images/author.jpg",
           height: 492

@@ -12,7 +12,7 @@
 	import live from '@/pages/welcome/video'
 	import slide from '@/pages/welcome/slide'
 	export default {
-		name: 'footer',
+		name: 'pages',
 		components: {tool,recommand,live,slide}
 	}
 </script>

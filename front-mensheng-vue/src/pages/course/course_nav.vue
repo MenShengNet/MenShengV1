@@ -1,5 +1,4 @@
 <template>
-
 	 <div class="course-nav">
         <ul><router-link to="/course/notice">
             <li><i class="iconfont icon-notification"></i>  <span>公告</span></li>
@@ -22,9 +21,10 @@
         </ul>
     </div>
 </template>
+
 <script type="text/javascript">
 	export default {
-		name: 'couse_nav'
+		name: 'slider'
 	}
 </script>
 
