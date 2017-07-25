@@ -9,12 +9,12 @@
             <router-link to="/course/work">
             <li><i class="iconfont icon-zuoye1"></i>  作业</li>
             </router-link>
-            <router-link to="/course/exam">
+            <!-- <router-link to="/course/exam">
             <li><i class="iconfont icon-zuoye"></i> 考试</li>
-            </router-link>
-            <router-link to="/course/discussion">
+            </router-link> -->
+            <!-- <router-link to="/course/discussion">
             <li><i class="iconfont icon-pinglun"></i> 讨论区</li>
-            </router-link>
+            </router-link> -->
             <router-link to="/course/setting">
             <li><i class="iconfont icon-shezhi"></i> 设置</li>
             </router-link>
@@ -29,6 +29,7 @@
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 	.course-nav {
             width: 180px;
             overflow: auto;

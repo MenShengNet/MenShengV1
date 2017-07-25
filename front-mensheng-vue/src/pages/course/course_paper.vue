@@ -25,13 +25,14 @@
 </script>
 
 <style type="text/css" scoped>
+*{box-sizing: content-box}
     .container{
-        width: 920px;
+        width: 940px;
         height: 520px;
         margin: auto;/*  修改margin改变位置*/
     }
     .setting-name{
-        width: 920px;
+        width: 940px;
         height: 45px;
         border-bottom: 5px solid rgb(190,204,213);
         margin: 15px 0;

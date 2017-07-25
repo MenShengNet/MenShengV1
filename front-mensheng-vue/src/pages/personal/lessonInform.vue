@@ -60,6 +60,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .wrap{
   	margin-top: 10px
   }
@@ -78,7 +79,7 @@
   	font-size: 18px;
   }
   .container .txt .teacher,.progress,.school{
-  	font-size: 12px;
+  	font-size: 14px;
   	margin: 8px 0
   }
   .container .txt .progress{

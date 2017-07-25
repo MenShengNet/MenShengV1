@@ -1,5 +1,5 @@
 <template>
-	<div class="follow bd clearFix fr">
+	<div class="follow bd clearFix fr font16">
     <div class="item bd fl" v-for="item in information">
       <div class="img"></div>
       <p class="teacher">{{item.teacher}}</p>
@@ -34,6 +34,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .follow{
   	width: 886px;
   	height: 693px;

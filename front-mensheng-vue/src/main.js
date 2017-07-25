@@ -5,9 +5,9 @@ import App from './App'
 import router from './router/index.js'
 
 
-//axios引入
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+
 
 //vuex引入
 import store from './store/index.js'
@@ -17,11 +17,18 @@ import VeeValidate from 'vee-validate';
 
 
 // //iview 引入
-//  import iView from 'iview'
-//  import 'iview/dist/styles/iview.css'
-
-// //iview主题
+// import iView from 'iview'
+// import 'iview/dist/styles/iview.css'
+// // //iview主题
 // import './my-theme/index.less'
+
+//elementui引入
+//import 'element-ui/lib/theme-default/index.css'
+import './theme/index.css'
+import ElementUI from 'element-ui'
+
+
+
 
 import './pages/course/icon/iconfont.css'
 
@@ -29,11 +36,9 @@ Vue.config.productionTip = false
 //Vue.prototype.$http = axios;
 
 Vue.use(VueAxios, axios)
-// Vue.use(iView);
+Vue.use(ElementUI)
 
 /* eslint-disable no-new */
-
-
 new Vue({
   el: '#app',
   router,
@@ -41,4 +46,6 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+
 

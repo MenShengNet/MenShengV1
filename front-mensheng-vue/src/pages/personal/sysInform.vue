@@ -3,25 +3,25 @@
     <div class="inform-item">
       <div class="content">
         <div class="icon fl icon1"></div>
-        <p class="fl">头像更换成功！</p>
+        <p class="fl font16">头像更换成功！</p>
       </div>
     </div>
     <div class="inform-item">
 	    <div class="content">
 	      <div class="icon fl icon2"></div>
-	      <p class="fl">个人信息修改成功！</p>
+	      <p class="fl font16">个人信息修改成功！</p>
 	    </div>
     </div>
     <div class="inform-item">
       <div class="content">
         <div class="icon fl icon3"></div>
-        <p class="fl">自动通知已关闭</p>
+        <p class="fl font16">自动通知已关闭</p>
       </div>
     </div>
     <div class="inform-item">
 	    <div class="content">
 	      <div class="icon fl icon4"></div>
-	      <p class="fl">昵称更换成功！</p>
+	      <p class="fl font16">昵称更换成功！</p>
 	    </div>
  	  </div>
 	</div>
@@ -32,6 +32,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
 	.lesson-inform,.sys-inform{
 		width: 146px;
 		height: 36px;
@@ -75,5 +76,5 @@
 	.wrap .inform-item .content p{
 		line-height: 50px;
 		margin-left: 10px;
-	}
+    }
 </style>

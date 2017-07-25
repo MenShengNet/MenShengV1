@@ -68,6 +68,7 @@
 </script>
 
 <style type="text/css" scoped>
+*{box-sizing: content-box}
     .container{
         width: 920px;
         height: 520px;

@@ -18,6 +18,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
   /*反馈模块样式开始*/
   .feedback{
     width: 886px;

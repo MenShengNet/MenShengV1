@@ -5,12 +5,12 @@
       <div class="photo fl"></div>
       <dl class="mt50">
         <dt>马姿琪</dt>
-        <dd><div class="icon prize"></div><span>已认证</span></dd>
-        <dd><div class="icon diamond"></div><span>倔强青铜</span></dd>
-        <dd><div class="icon wealth"></div><span>500000</span></dd>
+        <dd><div class="icon prize"></div><span class="font16">已认证</span></dd>
+        <dd><div class="icon diamond"></div><span class="font16">倔强青铜</span></dd>
+        <dd><div class="icon wealth"></div><span class="font16">500000</span></dd>
       </dl>
       <div class="motto">
-        <p>好好学习，天天向上！</p>
+        <p class="font16">好好学习，天天向上！</p>
         <div class="icon"></div>
       </div>
     </div>
@@ -20,12 +20,12 @@
         <span class="fr">19999</span>
       </p>
       <p class="clearFix">
-        <span class="fl">直播课:</span>
-        <span class="fr"><span class="black">99</span>/100</span>
+        <span class="fl font16">直播课:</span>
+        <span class="fr font16"><span class="black">99</span>/100</span>
       </p>
       <p class="clearFix">
-        <span class="fl">线下课:</span>
-        <span class="fr"><span class="black">20</span>/50</span>
+        <span class="fl font16">线下课:</span>
+        <span class="fr font16"><span class="black">20</span>/50</span>
       </p>
     </div>
     <div class="slimBar"></div>
@@ -37,6 +37,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
 /*我的详情样式开始*/
   .selfDetail{
     position: relative;

@@ -25,6 +25,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .head-change{
     width:886px;
     height: 745px;

@@ -20,6 +20,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
 	    .article ,.article div{
         display: block;
     }
@@ -41,7 +42,7 @@
         font-size: 20px; 
     }
     .article {
-        width: 960px;
+        width: 920px;
         margin: auto;
     }
     .rightbox {
@@ -78,7 +79,7 @@
         border: 2px #c2cacf solid;
         margin-top: 15px;
         margin-right: 15px;
-        width: 960px;
+        width: 920px;
         padding: 0px;
         display: inline-block;
     }

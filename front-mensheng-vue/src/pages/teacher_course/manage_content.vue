@@ -1,0 +1,120 @@
+<template>
+    <div class="ware">
+        <div id="msgBtn">
+            <p>章节管理</p> 
+            
+        </div>
+        <div class="edit"> <el-button type="large primary">添加</el-button></div>
+        <!-- <div class="ware-header"></div> -->
+        <ul>
+            <div class="nav-item" v-for="item in ul" @click="show(item)">
+                <div class="item-head">
+                    <i class="iconfont" :class="[item.active ? top:bottom]"></i>
+                    <span>{{ item.week}}</span>
+                </div>
+                <div class="item-child" v-for="it in item.li" v-show="item.show">
+                    {{ it }}
+                </div>
+            </div>
+    
+        </ul>
+    </div>
+</template>
+<script  scoped>
+export default {
+    data() {
+        return {
+            top: 'icon-shangjiantou',
+            bottom: 'icon-xiajiantou',
+
+            ul: [
+                {
+                    active: true,
+                    week: 'no.1',
+                    li: [1, 2, 3, 4],
+                    show: false
+                },
+                {
+                    active: false,
+                    week: 'no.2'
+                },
+                {
+                    active: false,
+                    week: 'no.3'
+                }
+            ]
+        };
+    },
+    methods: {
+        show: function (item) {
+            item.active = !item.active;
+            item.show = !item.show;
+
+        }
+    }
+}
+</script>
+
+<style scoped>
+* {
+    box-sizing: content-box
+}
+
+#msgBtn {
+    border: 2px solid rgb(189, 204, 212);
+    display: inline-block;
+    margin-right: 37px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+p {
+    width: 146px;
+    height: 36px;
+    margin: 3px;
+    font-size: 18px;
+    display: inline-block;
+    text-indent: 8px;
+    line-height: 36px;
+    background: rgb(189, 204, 212);
+}
+
+.edit {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+.ware {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.ware .ware-header {
+    height: 40px;
+    border-bottom: 3px solid #bccfd6;
+}
+
+.ware ul {
+    width: 940px;
+    margin-top: 10px;
+}
+
+.ware ul .nav-item .item-head {
+    height: 43px;
+    line-height: 43px;
+    padding-left: 10px;
+    background-color: #bccfd6;
+    cursor: pointer;
+    color: #fff;
+}
+
+.ware ul .nav-item .item-child {
+    height: 40px;
+    border-bottom: 2px solid #bccfd6;
+    margin-bottom: 3px;
+}
+
+.ware ul .nav-item {
+    overflow: hidden;
+}
+</style>

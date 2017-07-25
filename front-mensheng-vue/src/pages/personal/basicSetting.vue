@@ -93,6 +93,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .basic-setting{
     margin-top:10px;
     width: 836px;

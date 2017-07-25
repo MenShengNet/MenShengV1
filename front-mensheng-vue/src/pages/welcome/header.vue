@@ -99,7 +99,12 @@ export default {
 </script>
 
 <style scoped>
+*{
+    font-size: 16px;
+}
 /*头部样式开始*/
+ *{box-sizing: content-box}
+
 
 .header .logo {
 	background: url("images/qietu.png") -13px -2px;

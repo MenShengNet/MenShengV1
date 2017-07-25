@@ -21,6 +21,7 @@
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 	    .stutime{
             width: 1140px;
             height: 114px;

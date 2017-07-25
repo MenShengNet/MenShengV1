@@ -80,13 +80,15 @@
 </script>
 
 <style type="text/css" scoped>
+*{box-sizing: content-box}
     .container{
-        width: 920px;
+        width: 940px;
         height: 520px;
         margin: auto;/*  修改margin改变位置*/
+        margin-bottom: 40px;
     }
     .name{
-        width: 920px;
+        width: 940px;
         height: 45px;
         border-bottom: 4px solid rgb(190,204,213);
         margin: 15px 0;
@@ -160,7 +162,7 @@
         font-size: 14px;
     }
     .list{
-        width: 910px;
+        width: 928px;
         height: 62px;
         background-color: rgb(190,204,213);
         clear: both;

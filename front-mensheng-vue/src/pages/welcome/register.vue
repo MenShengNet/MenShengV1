@@ -43,6 +43,9 @@ export default{
 </script>
 
 <style scoped>
+* {
+    box-sizing: content-box;
+}
   .wrap{
     width: 900px;
     background: rgb(189,204,212);
@@ -73,7 +76,7 @@ export default{
     font-size: 20px;
     margin-left: 25px;
     line-height: 30px;
-		text-align: right;
+	text-align: right;
   }
   .input p input{
     width: 230px;
@@ -103,7 +106,7 @@ export default{
     bottom: 10px;
   }
   .gain,.register{
-    font-size: 12px;
+    font-size: 11px;
     text-decoration: none;
     color: #000;
   }

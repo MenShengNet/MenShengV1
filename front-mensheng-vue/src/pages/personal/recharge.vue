@@ -21,6 +21,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .recharge{
     width: 886px;
     height: 740px;

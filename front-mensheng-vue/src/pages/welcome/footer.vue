@@ -33,6 +33,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
 	/*尾部样式开始*/
   .footer{width:1100px;background: rgb(189,204,212);padding: 20px;color: rgb(70,76,79);font-size: 14px;}
   .footer .left .logo{width: 350px;height: 80px;background: url("images/qietu.png") -23px -158px;}

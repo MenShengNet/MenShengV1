@@ -1,49 +1,38 @@
 <template>
 	 <div class="course-nav">
-        <ul><router-link to="/course/notice">
-            <li><i class="iconfont icon-notification"></i>  <span>公告</span></li>
-            </router-link>
-
-            <router-link to="/course/ware">
-            <li><i class="iconfont icon-enclosure"></i>  章节列表</li>
-            </router-link>
-
-            <router-link to="/course/ware">
-            <li><i class="iconfont icon-enclosure"></i>  课件</li>
-            </router-link>
-
-            <router-link to="/course/work">
+        <ul>   <!-- <router-link to="/course/notice"> -->
+            <li><i class="iconfont icon-notification"></i>  <span>公告管理</span></li>
+            <!-- </router-link> -->
+            <li><i class="iconfont icon-enclosure"></i>  章节发布</li>
+            <!-- <router-link to="/course/ware"> -->
+            <li><i class="iconfont icon-enclosure"></i>  课程上传</li>
+            <!-- </router-link> -->
+            <!-- <router-link to="/course/work"> -->
             <li><i class="iconfont icon-zuoye1"></i>  作业</li>
-            </router-link>
-            <router-link to="/course/exam">
-            <li><i class="iconfont icon-zuoye"></i> 考试</li>
-            </router-link>
-
-            <router-link to="/course/discussion">
+            <!-- </router-link> -->
+            <!-- <router-link to="/course/exam"> -->
+            <!-- <li><i class="iconfont icon-zuoye"></i> 考试</li> -->
+            <!-- </router-link> -->
+            <!-- <router-link to="/course/discussion"> -->
             <li><i class="iconfont icon-pinglun"></i> 讨论区</li>
-            </router-link>
-            
-            <router-link to="/course/discussion">
+            <!-- </router-link> -->
             <li><i class="iconfont icon-pinglun"></i> 学生管理</li>
-            </router-link>
-
-            <router-link to="/course/discussion">
-            <li><i class="iconfont icon-pinglun"></i> 课程数据</li>
-            </router-link>
-
-            <router-link to="/course/setting">
+            <li><i class="iconfont icon-pinglun"></i> 课程数据管理</li>
+            <!-- <router-link to="/course/setting"> -->
             <li><i class="iconfont icon-shezhi"></i> 设置</li>
-            </router-link>
+            <!-- </router-link> -->
         </ul>
     </div>
 </template>
+
 <script type="text/javascript">
 	export default {
-		name: 'couse_nav'
+		name: 'teacher-slider'
 	}
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 	.course-nav {
             width: 180px;
             overflow: auto;

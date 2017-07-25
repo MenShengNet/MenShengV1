@@ -28,11 +28,13 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
 	.identify{
-    width: 886px;
+    width: 856px;
     height: 745px;
     border: 2px solid rgb(189,204,212);
     margin-top: 10px;
+    padding-left: 30px;
   }
   .identify .idCard .img{
     width: 340px;

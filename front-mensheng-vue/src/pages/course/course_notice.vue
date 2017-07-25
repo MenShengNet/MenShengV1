@@ -1,10 +1,10 @@
 <template>
 <div>
 	<div class="article">
-	<div class="rightbox box"><h2>公告</h2></div><hr>
+	<div class="rightbox box"><h2 class="font24">公告</h2></div><hr>
 	<div class="kuai14"><p class="headline">最近更新<hr class="head"><b>课件:</b><br>1.1 课件已更新</p></div>
 	<div class="kuai11"><p class="headline">置顶公告<hr class="head"><br>通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知        内容：adstf通知内容：adstf<br><br><button>下 载 附 件</button></p><span>时间：2017年5月10号 12：00</span></div>
-	<div class="kuai12"><p>通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf<br><br><span>时间：2017年5月10号 12：00</span></p></div>
+	<!--<div class="kuai12"><p>通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf<br><br><span>时间：2017年5月10号 12：00</span></p></div>-->
 	<div class="kuai13">通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf通知内容：adstf<br><br><span>时间：2017年5月10号 12：00</span></div>
     </div>
 </div>
@@ -17,12 +17,13 @@
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 	div{
 		display: block;
 	}
     .article {
-    	width: 960px;
-        margin: auto;
+    	width: 940px;
+        margin-left: 10px;
     }
 	.rightbox {
         width: 720px;
@@ -60,8 +61,8 @@
     	border: 2px #c2cacf solid;
     	margin-top: 15px;
     	margin-right: 15px;
-    	width: 720px;
-    	padding: 0px;
+    	width: 710px;
+    	padding: 10px;
     	white-space: wrap;
     	display: inline-block;
     }
@@ -69,8 +70,8 @@
 		border: 2px #c2cacf solid;
     	margin-top: 15px;
     	margin-right:15px;
-    	width: 720px;
-    	padding: 0px;
+    	width: 710px;
+    	padding: 10px;
     	white-space: wrap;
     	display: inline-block;
 	}
@@ -79,8 +80,9 @@
 		border: 10px #c2cacf solid;
 		margin-top: 15px;
 		margin-left: 745px;
-		width: 195px;
+		width: 180px;
         height: 260px;
 		display: inline-block;
+        z-index: 12px;
 	}
 </style>

@@ -3,7 +3,7 @@
   <div v-for="item in information" class="u-clist f-bg f-cb f-pr" data-href="/course/JXUFE-1002027004" data-action="课程点击" data-label="1002027004_1002135003">        
     <div class="g-sd1">            
       <div class="u-img f-fl">
-        <img src="http://imgsize.ph.126.net/?enlarge=true&amp;imgurl=http://edu-image.nosdn.127.net/983417635DE8417A0E4EFBF0EECAD22E.jpg?imageView&amp;thumbnail=426y240&amp;quality=100_223x125x1x95.jpg?imageView&amp;thumbnail=426y240&amp;quality=100" alt="轻松学统计" height="150px" width="265px">
+        <img v-bind:src="item.image" alt="轻松学统计" height="150px" width="265px">
       </div>        
     </div>        
       <div class="g-mn1">            
@@ -53,6 +53,15 @@
             intro:'《轻松学统计》MOOC课程由江西财经大学统计学院《统计学》课程教学团队精心设计与制作，团队成员均有丰富的教学经验，其中李燕辉老师曾主持国家级精品视频公开课《爱上统计学》。此次，在罗良清教授的带领…',
             people:2061,
             progress:1,
+            image:'http://imgsize.ph.126.net/?enlarge=true&imgurl=http://edu-image.nosdn.127.net/1BD72772FD2B7D08DD1817A37AA8E71E.JPG?imageView&thumbnail=426y240&quality=100_223x125x1x95.JPG?imageView&thumbnail=426y240&quality=100'
+          },
+          {
+            course:'环境问题观察',
+            school:'华东师范大学',
+            intro:' 最通俗易懂的环境知识入门课； 最深入一线的环境问题观察课； 最有益身心的环境健康普及课； 最魔都特色的环境创新实习课； 让我们一起迈出去，用心观察； 走回来，凭智实论！ 用知识珍惜情怀，用行动走向…',
+            people:1961,
+            progress:1,
+            image:'//imgsize.ph.126.net/?enlarge=true&imgurl=http://edu-image.nosdn.127.net/6D4D354D4FC1743A6120C4B50E278DF6.jpg?imageView&thumbnail=426y240&quality=100_223x125x1x95.jpg?imageView&thumbnail=426y240&quality=100'
           },
           {
             course:'轻松学统计',
@@ -60,6 +69,7 @@
             intro:'《轻松学统计》MOOC课程由江西财经大学统计学院《统计学》课程教学团队精心设计与制作，团队成员均有丰富的教学经验，其中李燕辉老师曾主持国家级精品视频公开课《爱上统计学》。此次，在罗良清教授的带领…',
             people:2061,
             progress:1,
+            image:'http://imgsize.ph.126.net/?enlarge=true&imgurl=http://img1.ph.126.net/XtMbWU3qv-a8DKnn9GtUQQ==/6608769669887777323.png_223x125x1x95.png'
           },
           {
             course:'轻松学统计',
@@ -67,6 +77,7 @@
             intro:'《轻松学统计》MOOC课程由江西财经大学统计学院《统计学》课程教学团队精心设计与制作，团队成员均有丰富的教学经验，其中李燕辉老师曾主持国家级精品视频公开课《爱上统计学》。此次，在罗良清教授的带领…',
             people:2061,
             progress:1,
+             image:'http://imgsize.ph.126.net/?enlarge=true&imgurl=http://edu-image.nosdn.127.net/D348F91DDDA57CBD1E371F1C7B99F888.jpg?imageView&thumbnail=426y240&quality=100_223x125x1x95.jpg?imageView&thumbnail=426y240&quality=100'
           },
           {
             course:'轻松学统计',
@@ -74,13 +85,7 @@
             intro:'《轻松学统计》MOOC课程由江西财经大学统计学院《统计学》课程教学团队精心设计与制作，团队成员均有丰富的教学经验，其中李燕辉老师曾主持国家级精品视频公开课《爱上统计学》。此次，在罗良清教授的带领…',
             people:2061,
             progress:1,
-          },
-          {
-            course:'轻松学统计',
-            school:'江西财经大学',
-            intro:'《轻松学统计》MOOC课程由江西财经大学统计学院《统计学》课程教学团队精心设计与制作，团队成员均有丰富的教学经验，其中李燕辉老师曾主持国家级精品视频公开课《爱上统计学》。此次，在罗良清教授的带领…',
-            people:2061,
-            progress:1,
+             image:'http://imgsize.ph.126.net/?enlarge=true&imgurl=http://edu-image.nosdn.127.net/B5A75AF378A002984E4BB708E16FB06E.jpg?imageView&thumbnail=426y240&quality=100_223x125x1x95.jpg?imageView&thumbnail=426y240&quality=100'
           }
         ]
       }

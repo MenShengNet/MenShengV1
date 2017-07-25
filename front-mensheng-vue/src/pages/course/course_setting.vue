@@ -5,7 +5,7 @@
         </div>
         <div class="text">
             <p>课内信息设置：</p><br><br>
-            <form method="post">
+            <form method="post" class="font18">
                 <b>学&nbsp;&nbsp;院：&nbsp;&nbsp;</b><input class="txt" type="text" name="college"><br><br>
                 <b>班&nbsp;&nbsp;级：&nbsp;&nbsp;</b><input class="txt" type="text" name="class"><br><br>
                 <b>学&nbsp;&nbsp;号：&nbsp;&nbsp;</b><input class="txt" type="text" name="stu-number"><br><br>
@@ -23,13 +23,15 @@
 </script>
 
 <style type="text/css" scoped>
+*{box-sizing: content-box}
     .container{
-        width: 920px;
-        height: 520px;
+        width: 940px;
+        /* height: 520px; */
         margin: auto;/*  修改margin改变位置*/
+        margin-bottom: 20px;
     }
     .setting-name{
-        width: 920px;
+        width: 940px;
         height: 45px;
         border-bottom: 5px solid rgb(190,204,213);
         margin: 15px 0;
@@ -46,7 +48,7 @@
     .text{
         border: 2px solid rgb(190,204,213);
         padding: 20px;
-        width: 876px;
+        width: 898px;
         height: 306px;
     }
     .text p{

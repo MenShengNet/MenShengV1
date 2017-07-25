@@ -4,7 +4,7 @@ import {setStore, getStore, removeStore} from '../config/Utils'
 
 export default {
     [LOGIN_OUT](state) {
-        state.user.name = {};
+        state.userInfo.name = {};
 		state.isLogin = false;
         localStorage.removeItem('user');
     },

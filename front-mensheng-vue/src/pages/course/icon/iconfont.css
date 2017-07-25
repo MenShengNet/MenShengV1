@@ -7,6 +7,15 @@
   url('iconfont.svg?t=1494916535847#iconfont') format('svg'); /* iOS 4.1- */
 }
 
+@font-face {
+  font-family: 'iconfont';  /* project id 360292 */
+  src: url('//at.alicdn.com/t/font_l6t0olj3szs8xgvi.eot');
+  src: url('//at.alicdn.com/t/font_l6t0olj3szs8xgvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_l6t0olj3szs8xgvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_l6t0olj3szs8xgvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_l6t0olj3szs8xgvi.svg#iconfont') format('svg');
+}
+
 .iconfont {
   font-family:"iconfont" !important;
   font-size:16px;
@@ -34,4 +43,8 @@
 .icon-xiajiantou:before { content: "\f034e"; }
 
 .icon-accessory:before { content: "\e6dd"; }
+
+.icon-management:before {content:"\e639";}
+
+.icon-data:before {content: "\e607" ;}
 

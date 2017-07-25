@@ -46,7 +46,8 @@ export default {
                     console.log(response);
                     if (response.data.state == true) {
                         _this.userLogin(response.data);
-                        _this.$router.push({path: '/personal'});
+                        let redirect = decodeURIComponent(_this.$route.query.redirect || '/');
+                        _this.$router.push({path: redirect});
                     }
                 })
                 .catch(function (error) {
@@ -58,6 +59,7 @@ export default {
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 .wrap {
     width: 900px;
     background: rgb(189, 204, 212);

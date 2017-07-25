@@ -50,8 +50,9 @@
 </script>
 
 <style scoped>
+*{box-sizing: content-box}
 	  .article {
-      width: 960px;
+      width: 940px;
       margin: auto;
   }
   .article h2 {
@@ -60,7 +61,7 @@
       border-bottom: 2px solid #c2cacf;
   }
   .box{
-      width: 960px;
+      width: 940px;
       border: 2px solid #c2cacf;
       margin-top: 15px;
   }

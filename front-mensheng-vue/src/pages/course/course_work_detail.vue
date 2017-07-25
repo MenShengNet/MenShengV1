@@ -19,7 +19,7 @@
 	}
 </script>
 <style scoped>
-
+*{box-sizing: content-box}
 	.article, .article div{
 		display: block;
 	}
@@ -41,7 +41,7 @@
         font-size: 20px; 
     }
     .article {
-    	width: 960px;
+    	width: 940px;
         margin: auto;
     }
 	.rightbox {

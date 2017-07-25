@@ -11,6 +11,7 @@
 	}
 </script>
 <style scoped>
+*{box-sizing: content-box}
 	.msgBtn{
 		border: 2px solid rgb(189,204,212);
 		display: inline-block;

@@ -78,6 +78,7 @@ export default{
 </script>
 <style scoped>
 	/*课程推荐样式开始*/
+     *{box-sizing: content-box}
   .recommend{height: 350px;}
   .recommend .top{margin-bottom: 15px;}
   .recommend .top .left{line-height: 26px;padding: 10px;background: rgb(189,204,212);}

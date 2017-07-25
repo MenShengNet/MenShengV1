@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import store from '@/store/index.js'
+import store from '@/store/index'
 
 import login from '@/pages/welcome/login'
 import register from '@/pages/welcome/register'
@@ -37,187 +37,244 @@ import course_work_detail from '@/pages/course/course_work_detail'
 
 import course from '@/pages/course/index'
 
-
 import course_detail from '@/pages/introduce/course-detail'
 import course_list from '@/pages/lists/course_list'
+
+
+import teacher from '@/pages/teacher_course/index'
+import teacher_publish_notification from '@/pages/teacher_course/publish_notification'
+import teacher_manage_notification from '@/pages/teacher_course/manage_notification'
+import teacher_notification from '@/pages/teacher_course/notificatioin'
+
+import teacher_work from '@/pages/teacher_course/work'
+import teacher_publish_work from '@/pages/teacher_course/publish_work'
+import teacher_manage_work from '@/pages/teacher_course/manage_work'
+
+import teacher_manage_ware from '@/pages/teacher_course/ware'
+import teacher_manage_content from '@/pages/teacher_course/manage_content'
+
 
 Vue.use(VueAwesomeSwiper)
 
 Vue.use(Router)
 
 
-export default new Router({
-  routes: [
-    {path:'/',redirect:'/welcome'},
-    {path:'/personal',redirect:'/personal/myCourseOption/liveList'},
-    {path:'/personal/myCourseOption',redirect:'/personal/myCourseOption/liveList'},
-    {path:'/personal/messageCenterOption',redirect:'/personal/messageCenterOption/lessonInform'},
-    {path:'/personal/settingOption',redirect:'/personal/settingOption/basicSetting'},
-    {
-      path: '/welcome',
-      name: 'welcome',
-      component: welcome
+const routes = [{
+    path: '/',
+    redirect: '/welcome'
+  },
+  {
+    path: '/personal/messageCenterOption',
+    redirect: '/personal/messageCenterOption/lessonInform'
+  },
+  {
+    path: '/personal/settingOption',
+    redirect: '/personal/settingOption/basicSetting'
+  },
+  {
+    path: '/welcome',
+    name: 'welcome',
+    component: welcome
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: register
+  },
+  {
+    meta: {
+      requireLogin: true, // 添加该字段，表示进入这个路由是需要登录的
     },
-    {
-      path: '/login',
-      name: 'login',
-      component: login
-    },
-    {
-      path: '/register',
-      name: 'register',
-      component: register
-    },
-    {
-      path: '/personal',
-      name: 'personal',
-      component: personal,
-      children:[
-        {
-          path:'/personal/myCourseOption',
-          component:myCourseOption,
-          children:[
-            {path:'/personal/myCourseOption/liveList',component:liveList},
-            {path:'/personal/myCourseOption/video',component:liveList},
-            {path:'/personal/myCourseOption/finished',component:liveList}
-          ]
+    path: '/personal',
+    name: 'personal',
+    redirect: '/personal/myCourseOption/liveList',
+    component: personal,
+    children: [{
+        path: 'myCourseOption',
+        redirect: '/personal/myCourseOption/liveList',
+        component: myCourseOption,
+        children: [{
+            path: 'liveList',
+            component: liveList
+          },
+          {
+            path: 'video',
+            component: liveList
+          },
+          {
+            path: 'finished',
+            component: liveList
+          }
+        ]
+      },
+      {
+        path: '/personal/settingOption',
+        component: settingOption,
+        children: [{
+            path: 'basicSetting',
+            component: basicSetting
+          },
+          {
+            path: 'identify',
+            component: identify
+          },
+          {
+            path: 'headChange',
+            component: headChange
+          },
+          {
+            path: 'recharge',
+            component: recharge
+          },
+          {
+            path: 'feedback',
+            component: feedback
+          },
+        ]
+      },
+      {
+        path: '/personal/messageCenterOption',
+        component: messageCenterOption,
+        children: [{
+            path: '/personal/messageCenterOption/lessonInform',
+            component: lessonInform
+          },
+          {
+            path: '/personal/messageCenterOption/sysInform',
+            component: sysInform
+          }
+        ]
+      },
+      {
+        path: '/personal/follow',
+        name: 'follow',
+        component: follow
+      }
+    ]
+  },
+  {
+    path: '/course',
+    redirect: '/course/notice',
+    name: 'course',
+    component: course,
+    children: [{
+        path: 'setting',
+        component: course_setting
+      },
+      {
+        path: 'video',
+        component: course_video
+      },
+      {
+        path: 'paper',
+        component: course_paper,
+      },
+      {
+        path: 'discussion',
+        component: course_discussion
+      },
+      {
+        path: 'discussion/detail',
+        component: course_discussion_detail
+      },
+      {
+        path: 'ware',
+        component: course_ware
+      },
+      {
+        path: 'notice',
+        component: course_notice,
+      },
+      {
+        path: 'work',
+        meta: {
+          requireLogin: true, // 添加该字段，表示进入这个路由是需要登录的
         },
-        {
-          path:'/personal/settingOption',
-          component:settingOption,
-          children:[
-            {path:'/personal/settingOption/basicSetting',component:basicSetting},
-            {path:'/personal/settingOption/identify',component:identify},
-            {path:'/personal/settingOption/headChange',component:headChange},
-            {path:'/personal/settingOption/recharge',component:recharge},
-            {path:'/personal/settingOption/feedback',component:feedback},
-          ]
+        component: course_work
+      },
+      {
+        path: 'exam',
+        meta: {
+          requireLogin: true, // 添加该字段，表示进入这个路由是需要登录的
         },
-        {
-          path:'/personal/messageCenterOption',
-          component:messageCenterOption,
-          children:[
-            {path:'/personal/messageCenterOption/lessonInform',component:lessonInform},
-            {path:'/personal/messageCenterOption/sysInform',component:sysInform}
-          ]
-        },
-        {
-          path: '/personal/follow',
-          name: 'follow',
-          component: follow
-        }
-      ]
-    },
-    {
-      path: '/course_setting',
-      name: 'course_setting',
-      component: course_setting
-    },
-    {
-      path: '/course_discussion',
-      name: 'course_discussion',
-      component: course_discussion
-    },
-    {
-      path: '/course_discussion_detail',
-      name: 'course_discussion_detail',
-      component: course_discussion_detail
-    },
-    {
-      path: '/course_video',
-      name: 'course_video',
-      component: course_video
-    },
-    {
-      path: '/course_paper',
-      name: 'course_paper',
-      component: course_paper
-    },
-    {
-      path: '/course_header',
-      name: 'course_header',
-      component: course_header
-    },
-    {
-      path: "/course_nav",
-      name: 'course_nav',
-      component: course_nav
-    },
-    {
-      path: '/course_ware',
-      name: 'course_ware',
-      component: course_ware
-    },
-    {
-      path: '/course',
-      redirect: '/course/notice',
-      name: 'course',
-      component: course,
-      children: [
-        {
-          path: '/course/setting',
-          component: course_setting
-        },
-        {
-          path: '/course/video',
-          component: course_video
-        },
-        {
-          path: '/course/paper',
-          component: course_paper,
-        },
-        {
-          path: '/course/discussion',
-          component: course_discussion
-        },
-        {
-          path: '/course/discussion/detail',
-          component: course_discussion_detail
-        },
-        {
-          path: '/course/ware',
-          component: course_ware
-        },
-        {
-          path: '/course/notice',
-          component: course_notice
-        },
-        {
-          path: '/course/work',
-          component: course_work
-        },
-        {
-          path: '/course/exam',
-          component: course_exam
-        },
-        {
-          path: '/course/work/detail',
-          component: course_work_detail
-        },
-        {
-          path: '/course/exam/datail',
-          component: course_exam_detail
+        component: course_exam
+      },
+    ],
+  },
+  {
+    path: '/teacher',
+    component: teacher,
+    redirect: "/teacher/manageNotification/notificatin",
+    children: [{
+        path: 'manageNotification',
+        redirect: "/teacher/manageNotification/notificatin",
+        component: teacher_manage_notification,
+        children: [{
+            path: 'publishNotification',
+            component: teacher_publish_notification
+          },
+          {
+            path: 'notificatin',
+            component: teacher_notification
+          }
+        ]
+      },
+      {
+        path: 'manageContent',
+        component: teacher_manage_content
+      },
+      {
+        path: 'manageWork',
+        redirect: "/teacher/manageWork/work",
+        component: teacher_manage_work,
+        children: [{
+            path: 'publishWork',
+            component: teacher_publish_work
+          },
+          {
+            path: 'work',
+            component: teacher_work
+          }
+        ]
+      },
+      {
+        path: 'manageWare',
+        redirect: "/teacher/manageWare",
+        component: teacher_manage_ware,
+      }
+    ]
+  },
+  {
+    path: '/course_list',
+    name: 'course_list',
+    component: course_list
+  }
+]
 
-        }
-
-      ],
-
-      // path: '/course-detail',
-      // name: 'course-detail',
-      // component: course_detail,
-      // path: '/course-detail',
-      // name: 'course-detail',
-      // component: course_detail
-
-    },
-    {
-      path: '/course_list',
-      name: 'course_list',
-      component: course_list
-    }
-  ]
+const router = new Router({
+  routes
 })
 
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.requireLogin)) {
+    if (store.state.isLogin) {
+      next()
+    } else {
+      next({
+        path: '/login',
+        query: {
+          redirect: to.fullPath
+        }
+      })
+    }
+  } else {
+    next()
+  }
+})
 
-
-
+export default router;

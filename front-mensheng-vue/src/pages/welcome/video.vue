@@ -15,6 +15,7 @@
       </div>
       </div>
 </template>
+
 <script>
   import Vue from 'vue'
   import { videoPlayer } from 'vue-video-player'
@@ -41,6 +42,7 @@ export default {
 </script>
 
 <style scoped>
+    *{box-sizing: content-box}
   .clearFix:after{content: "";display: block;clear: both;}
   .left{float: left;}
   .right{float: right;}

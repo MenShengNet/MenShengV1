@@ -6,9 +6,9 @@
       <div class="container">     
           <img v-bind:src=slider.img>
           <div class="txt">
-            <h2>{{ slider.title }}</h2>
-            <h3>讲师：{{ slider.teacher }}</h3>
-            <p>{{ slider.content1 }}</p>
+            <h2 class="font24">{{ slider.title }}</h2>
+            <h3 class="font18">讲师：{{ slider.teacher }}</h3>
+            <p class="font16">{{ slider.content1 }}</p>
             <p>{{ slider.content2 }}</p>
             <p>{{ slider.content3 }}</p>
           </div>          
@@ -78,6 +78,7 @@
 
 
 <style type="text/css" scoped>
+*{box-sizing: content-box}
   .container{
     position: relative;
     top: 12px;

@@ -20,6 +20,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
   .w1140{
     margin: 15px auto 0;
   }

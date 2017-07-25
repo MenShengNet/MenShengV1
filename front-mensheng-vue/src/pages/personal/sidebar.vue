@@ -3,26 +3,26 @@
     <ul>
       <router-link to='/personal/myCourseOption'>
         <li>
-          <i class="iconfont icon-office"></i>
-          <span>我的课程</span>
+          <i class="iconfont icon-office "></i>
+          <span class="font16">我的课程</span>
         </li>
       </router-link>
       <router-link to="/personal/messageCenterOption">
         <li>
           <i class="iconfont icon-comments"></i>
-          <span>消息中心</span>
+          <span class="font16">消息中心</span>
         </li>
       </router-link>
       <router-link to="/personal/settingOption">
         <li>
           <i class="iconfont icon-set"></i>
-          <span>个人设置</span>
+          <span class="font16">个人设置</span>
         </li>
       </router-link>
       <router-link to='/personal/follow'>
         <li>
           <i class="iconfont icon-favoritesfilling"></i>
-          <span>关注</span>
+          <span class="font16">关注</span>
         </li>
       </router-link>
     </ul>
@@ -34,6 +34,7 @@
   }
 </script>
 <style scoped>
+*{box-sizing: content-box}
 @font-face {font-family: "iconfont";
   src: url('./iconfont/iconfont.eot?t=1494248407198'); /* IE9*/
   src: url('./iconfont/iconfont.eot?t=1494248407198#iefix') format('embedded-opentype'), /* IE6-IE8 */
